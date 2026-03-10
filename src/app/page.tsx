@@ -15,10 +15,10 @@ const CATEGORIES = [
 ];
 
 const HOW_IT_WORKS = [
-  { step: '01', title: 'Browse', desc: 'Search 500+ community-built SKILL.md files by category, use case, or keyword.' },
-  { step: '02', title: 'Install', desc: 'Copy a one-line install command. Skill is live in Claude Code in under 30 seconds.' },
-  { step: '03', title: 'Submit', desc: 'Built something useful? Submit your SKILL.md and help the community grow.' },
-  { step: '04', title: 'Skill Packs', desc: 'Curated bundles by role — Solopreneur, Developer, Marketer, and more.' },
+  { step: '01', title: 'Find', desc: 'Browse the library. Pick a skill that fits your workflow.' },
+  { step: '02', title: 'Copy', desc: 'Click Copy. The full SKILL.md content lands on your clipboard.' },
+  { step: '03', title: 'Install', desc: 'In Claude Code, paste and say: "Create .claude/skills/[name]/SKILL.md with this content."' },
+  { step: '04', title: 'Verify', desc: 'Use the trigger phrase. Claude confirms the skill is loaded. You\'re done.' },
 ];
 
 export default function Home() {
@@ -108,8 +108,8 @@ export default function Home() {
           fontSize: '20px', color: '#9b9284', lineHeight: 1.7,
           maxWidth: '560px', margin: '0 auto 40px',
         }}>
-          Browse, install, and share automation skills for Claude Code.
-          Community-built. Free to browse. One command to install.
+          Community-built SKILL.md files for Claude Code. Join early —
+          subscribers get the Solopreneur Pack (10 skills) free on launch day.
         </p>
 
         <div id="waitlist" style={{ display: 'flex', justifyContent: 'center', marginBottom: '48px' }}>
@@ -122,7 +122,7 @@ export default function Home() {
           flexWrap: 'wrap',
           borderTop: '1px solid #1a1813', paddingTop: '32px',
         }}>
-          {['500+ Skills', '8 Categories', 'Free to Browse', '1-cmd Install'].map((stat) => (
+          {['8 Categories', '1-cmd Install', 'Community Built'].map((stat) => (
             <div key={stat} style={{
               fontFamily: "'JetBrains Mono', monospace",
               fontSize: '12px', color: '#6b6455',
@@ -147,7 +147,7 @@ export default function Home() {
             color: '#d4820a', textTransform: 'uppercase',
             marginBottom: '12px',
           }}>
-            // Free skill — no signup required
+            // Install this in 30 seconds — no signup required
           </div>
           <h2 style={{
             fontFamily: 'var(--font-playfair), Georgia, serif',
@@ -157,8 +157,19 @@ export default function Home() {
             Try a skill right now
           </h2>
           <p style={{ fontFamily: 'var(--font-crimson), Georgia, serif', fontSize: '17px', color: '#9b9284' }}>
-            Copy this SKILL.md into your Claude Code project and it works immediately.
+            Copy it. Paste it into Claude Code. Say <em>"commit"</em>. Done.
           </p>
+        </div>
+        <div style={{
+          background: '#13120f', border: '1px solid #2a2520',
+          borderRadius: '4px', padding: '16px 20px',
+          marginBottom: '20px',
+          fontFamily: "'JetBrains Mono', monospace",
+          fontSize: '12px', color: '#9b9284', lineHeight: 1.8,
+        }}>
+          <span style={{ color: '#d4820a' }}>1.</span> Click <strong style={{ color: '#e8e0d0' }}>Copy</strong> below<br />
+          <span style={{ color: '#d4820a' }}>2.</span> In Claude Code, paste and say: <span style={{ color: '#f0a832' }}>"Create .claude/skills/smart-commit/SKILL.md with this content."</span><br />
+          <span style={{ color: '#d4820a' }}>3.</span> Type <span style={{ color: '#f0a832' }}>"commit"</span> — Claude writes your commit message. Verify it works.
         </div>
         <SkillPreview content={FEATURED_SKILL_MD} />
       </section>
@@ -237,13 +248,11 @@ export default function Home() {
           gap: '16px',
         }}>
           {CATEGORIES.map(({ name, icon, count }) => (
-            <a key={name} href={`/category/${name.toLowerCase()}`} style={{
-              display: 'block', textDecoration: 'none',
+            <div key={name} style={{
               background: '#1a1813',
               border: '1px solid #3d3830',
               borderRadius: '4px',
               padding: '20px',
-              transition: 'border-color 0.15s',
             }}>
               <div style={{ fontSize: '24px', marginBottom: '8px' }}>{icon}</div>
               <div style={{
@@ -257,9 +266,9 @@ export default function Home() {
                 fontFamily: "'JetBrains Mono', monospace",
                 fontSize: '11px', color: '#6b6455',
               }}>
-                {count} skills · Coming April 1
+                Coming April 1
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </section>
@@ -302,8 +311,10 @@ export default function Home() {
           fontFamily: "'JetBrains Mono', monospace",
           fontSize: '11px', color: '#3d3830',
           letterSpacing: '0.08em',
+          lineHeight: 1.8,
         }}>
-          claudemddirectory.com · Launching April 1, 2026
+          claudemddirectory.com · Launching April 1, 2026<br />
+          © 2026 claudemddirectory.com · Run, owned, and operated by RepuVault LLC
         </div>
       </footer>
 
