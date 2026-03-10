@@ -54,28 +54,28 @@ export default function Home() {
           alignItems: 'center', gap: '16px',
           marginBottom: '36px',
         }}>
-          {/* Jester hat */}
-          <svg width="88" height="62" viewBox="0 0 88 62" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          {/* Jester hat — all elements within viewBox so nothing clips */}
+          <svg width="130" height="92" viewBox="0 0 110 78" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             {/* Left prong */}
-            <path d="M8 44 Q6 28 16 8 Q26 28 30 44Z" fill="#d4820a"/>
-            {/* Center prong */}
-            <path d="M30 44 Q28 20 44 2 Q60 20 58 44Z" fill="#b86e08"/>
+            <path d="M8 60 Q6 42 18 20 Q30 42 36 60Z" fill="#d4820a"/>
+            {/* Center prong — slightly darker for depth */}
+            <path d="M34 60 Q31 34 55 14 Q79 34 76 60Z" fill="#b86e08"/>
             {/* Right prong */}
-            <path d="M58 44 Q62 28 72 8 Q82 28 80 44Z" fill="#d4820a"/>
+            <path d="M74 60 Q80 42 92 20 Q104 42 102 60Z" fill="#d4820a"/>
             {/* Bells */}
-            <circle cx="16" cy="8" r="7" fill="#f0a832"/>
-            <circle cx="44" cy="2" r="8" fill="#f0a832"/>
-            <circle cx="72" cy="8" r="7" fill="#f0a832"/>
-            {/* Bell shine */}
-            <circle cx="14" cy="6" r="2" fill="white" opacity="0.3"/>
-            <circle cx="42" cy="0" r="2.5" fill="white" opacity="0.3"/>
-            <circle cx="70" cy="6" r="2" fill="white" opacity="0.3"/>
-            {/* Brim shadow layer */}
-            <ellipse cx="44" cy="47" rx="40" ry="9" fill="#8a5206"/>
+            <circle cx="18" cy="20" r="10" fill="#f0a832"/>
+            <circle cx="55" cy="14" r="12" fill="#f0a832"/>
+            <circle cx="92" cy="20" r="10" fill="#f0a832"/>
+            {/* Bell shine dots */}
+            <circle cx="15" cy="17" r="3" fill="white" opacity="0.35"/>
+            <circle cx="51" cy="11" r="3.5" fill="white" opacity="0.35"/>
+            <circle cx="89" cy="17" r="3" fill="white" opacity="0.35"/>
+            {/* Brim shadow */}
+            <ellipse cx="55" cy="65" rx="50" ry="10" fill="#8a5206"/>
             {/* Brim */}
-            <ellipse cx="44" cy="45" rx="40" ry="9" fill="#d4820a"/>
+            <ellipse cx="55" cy="63" rx="50" ry="10" fill="#d4820a"/>
             {/* Brim highlight */}
-            <ellipse cx="44" cy="43" rx="32" ry="4" fill="#f0a832" opacity="0.2"/>
+            <ellipse cx="55" cy="60" rx="40" ry="5" fill="#f0a832" opacity="0.18"/>
           </svg>
 
           <div style={{
@@ -89,7 +89,7 @@ export default function Home() {
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '40px' }}>
-          <LogoMark size={80} />
+          <LogoMark size={110} />
         </div>
 
         <h1 style={{
