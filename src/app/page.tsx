@@ -50,12 +50,37 @@ export default function Home() {
       {/* Hero */}
       <section style={{ paddingTop: '120px', paddingBottom: '80px', textAlign: 'center', maxWidth: '800px', margin: '0 auto', padding: '120px 24px 80px' }}>
         <div style={{
-          fontFamily: "'JetBrains Mono', monospace",
-          fontSize: '11px', letterSpacing: '0.2em',
-          color: '#d4820a', textTransform: 'uppercase',
-          marginBottom: '32px',
+          display: 'flex', flexDirection: 'column',
+          alignItems: 'center', gap: '16px',
+          marginBottom: '36px',
         }}>
-          Launching April 1, 2026
+          {/* Jester hat */}
+          <svg width="64" height="52" viewBox="0 0 64 52" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            {/* Left prong */}
+            <path d="M18 32 C14 24 8 18 10 8 C11 3 17 2 20 7 C22 11 20 20 18 32Z" fill="#d4820a"/>
+            <circle cx="11" cy="6" r="4.5" fill="#f0a832" stroke="#d4820a" strokeWidth="1"/>
+            {/* Center prong */}
+            <path d="M32 30 C32 20 30 10 32 2 C34 10 32 20 32 30Z" fill="#c87010"/>
+            <path d="M32 30 C28 18 24 8 28 1 C30 -1 34 -1 36 1 C40 8 36 18 32 30Z" fill="#d4820a"/>
+            <circle cx="32" cy="1.5" r="5" fill="#f0a832" stroke="#d4820a" strokeWidth="1"/>
+            {/* Right prong */}
+            <path d="M46 32 C50 24 56 18 54 8 C53 3 47 2 44 7 C42 11 44 20 46 32Z" fill="#d4820a"/>
+            <circle cx="53" cy="6" r="4.5" fill="#f0a832" stroke="#d4820a" strokeWidth="1"/>
+            {/* Brim */}
+            <path d="M8 38 C8 34 12 32 18 32 C22 32 27 31 32 31 C37 31 42 32 46 32 C52 32 56 34 56 38 C56 41 52 43 46 43 L18 43 C12 43 8 41 8 38Z" fill="#b86e08"/>
+            <path d="M5 43 C5 40 11 38 18 38 L46 38 C53 38 59 40 59 43 C59 46 53 48 46 48 L18 48 C11 48 5 46 5 43Z" fill="#d4820a"/>
+            {/* Brim highlight */}
+            <path d="M12 41 C16 40 24 39.5 32 39.5 C40 39.5 48 40 52 41" stroke="#f0a832" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
+          </svg>
+
+          <div style={{
+            fontFamily: "'JetBrains Mono', monospace",
+            fontSize: '15px', letterSpacing: '0.18em',
+            color: '#d4820a', textTransform: 'uppercase',
+            fontWeight: 700,
+          }}>
+            Launching April 1, 2026
+          </div>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '40px' }}>
