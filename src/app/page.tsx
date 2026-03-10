@@ -207,7 +207,8 @@ export default function Home() {
           gap: '16px',
         }}>
           {CATEGORIES.map(({ name, icon, count }) => (
-            <div key={name} style={{
+            <a key={name} href={`/category/${name.toLowerCase()}`} style={{
+              display: 'block', textDecoration: 'none',
               background: '#1a1813',
               border: '1px solid #3d3830',
               borderRadius: '4px',
@@ -228,7 +229,7 @@ export default function Home() {
               }}>
                 {count} skills · Coming April 1
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </section>
