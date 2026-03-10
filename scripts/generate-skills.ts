@@ -113,9 +113,13 @@ async function main() {
 
     process.stdout.write(`  GEN   ${slug} ... `);
     try {
-      const content = await generateSkill(entry);
+      let content = await generateSkill(entry);
+      // Strip markdown code fences if model wrapped output
+      if (content.startsWith('```')) {
+        content = content.replace(/^```[a-z]*\n/, '').replace(/\n```\s*$/, '').trim();
+      }
       fs.mkdirSync(dir, { recursive: true });
-      fs.writeFileSync(filePath, content);
+      fs.writeFileSync(filePath, content + '\n');
       console.log('done');
     } catch (err) {
       console.log(`ERROR: ${err}`);

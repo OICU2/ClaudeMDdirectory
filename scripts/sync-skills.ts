@@ -3,6 +3,18 @@ import path from 'path';
 import matter from 'gray-matter';
 import { createClient } from '@supabase/supabase-js';
 
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+  fs.readFileSync(envPath, 'utf-8')
+    .split('\n')
+    .filter((l) => l.includes('=') && !l.startsWith('#'))
+    .forEach((l) => {
+      const [k, ...v] = l.split('=');
+      if (k && !process.env[k.trim()]) process.env[k.trim()] = v.join('=').trim();
+    });
+}
+
 const SKILLS_DIR = path.join(process.cwd(), 'skills');
 
 const supabase = createClient(
