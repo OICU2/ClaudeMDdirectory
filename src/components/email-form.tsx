@@ -50,7 +50,7 @@ export function EmailForm({ source }: { source: string }) {
 
   return (
     <form onSubmit={handleSubmit} className="w-full">
-      <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
+      <div className="flex flex-col sm:flex-row gap-3 w-full max-w-lg mx-auto">
         <input
           type="email"
           value={email}
@@ -62,10 +62,10 @@ export function EmailForm({ source }: { source: string }) {
             background: '#1a1813',
             border: '1px solid #3d3830',
             borderRadius: '2px',
-            padding: '12px 16px',
+            padding: '14px 18px',
             color: '#e8e0d0',
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '14px',
+            fontSize: '15px',
             outline: 'none',
           }}
           onFocus={(e) => (e.target.style.borderColor = '#d4820a')}
@@ -78,11 +78,11 @@ export function EmailForm({ source }: { source: string }) {
             background: loading ? '#8a5510' : '#d4820a',
             color: '#0b0a07',
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '12px',
+            fontSize: '13px',
             fontWeight: 700,
             letterSpacing: '0.08em',
             textTransform: 'uppercase',
-            padding: '12px 24px',
+            padding: '14px 28px',
             borderRadius: '2px',
             border: 'none',
             cursor: loading ? 'not-allowed' : 'pointer',
