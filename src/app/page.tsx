@@ -55,22 +55,27 @@ export default function Home() {
           marginBottom: '36px',
         }}>
           {/* Jester hat */}
-          <svg width="64" height="52" viewBox="0 0 64 52" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg width="88" height="62" viewBox="0 0 88 62" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             {/* Left prong */}
-            <path d="M18 32 C14 24 8 18 10 8 C11 3 17 2 20 7 C22 11 20 20 18 32Z" fill="#d4820a"/>
-            <circle cx="11" cy="6" r="4.5" fill="#f0a832" stroke="#d4820a" strokeWidth="1"/>
+            <path d="M8 44 Q6 28 16 8 Q26 28 30 44Z" fill="#d4820a"/>
             {/* Center prong */}
-            <path d="M32 30 C32 20 30 10 32 2 C34 10 32 20 32 30Z" fill="#c87010"/>
-            <path d="M32 30 C28 18 24 8 28 1 C30 -1 34 -1 36 1 C40 8 36 18 32 30Z" fill="#d4820a"/>
-            <circle cx="32" cy="1.5" r="5" fill="#f0a832" stroke="#d4820a" strokeWidth="1"/>
+            <path d="M30 44 Q28 20 44 2 Q60 20 58 44Z" fill="#b86e08"/>
             {/* Right prong */}
-            <path d="M46 32 C50 24 56 18 54 8 C53 3 47 2 44 7 C42 11 44 20 46 32Z" fill="#d4820a"/>
-            <circle cx="53" cy="6" r="4.5" fill="#f0a832" stroke="#d4820a" strokeWidth="1"/>
+            <path d="M58 44 Q62 28 72 8 Q82 28 80 44Z" fill="#d4820a"/>
+            {/* Bells */}
+            <circle cx="16" cy="8" r="7" fill="#f0a832"/>
+            <circle cx="44" cy="2" r="8" fill="#f0a832"/>
+            <circle cx="72" cy="8" r="7" fill="#f0a832"/>
+            {/* Bell shine */}
+            <circle cx="14" cy="6" r="2" fill="white" opacity="0.3"/>
+            <circle cx="42" cy="0" r="2.5" fill="white" opacity="0.3"/>
+            <circle cx="70" cy="6" r="2" fill="white" opacity="0.3"/>
+            {/* Brim shadow layer */}
+            <ellipse cx="44" cy="47" rx="40" ry="9" fill="#8a5206"/>
             {/* Brim */}
-            <path d="M8 38 C8 34 12 32 18 32 C22 32 27 31 32 31 C37 31 42 32 46 32 C52 32 56 34 56 38 C56 41 52 43 46 43 L18 43 C12 43 8 41 8 38Z" fill="#b86e08"/>
-            <path d="M5 43 C5 40 11 38 18 38 L46 38 C53 38 59 40 59 43 C59 46 53 48 46 48 L18 48 C11 48 5 46 5 43Z" fill="#d4820a"/>
+            <ellipse cx="44" cy="45" rx="40" ry="9" fill="#d4820a"/>
             {/* Brim highlight */}
-            <path d="M12 41 C16 40 24 39.5 32 39.5 C40 39.5 48 40 52 41" stroke="#f0a832" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
+            <ellipse cx="44" cy="43" rx="32" ry="4" fill="#f0a832" opacity="0.2"/>
           </svg>
 
           <div style={{
