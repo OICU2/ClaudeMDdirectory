@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync-skills": "tsx scripts/sync-skills.ts"
+    "sync-skills": "tsx scripts/sync-skills.ts",
+    "generate-skills": "tsx scripts/generate-skills.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.0",
@@ -19,6 +20,7 @@
     "tsx": "^4.21.0"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/pg": "^8.18.0",
