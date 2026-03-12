@@ -9,18 +9,21 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid email' }, { status: 400 });
     }
 
-    // Add to Resend audience
-    await resend.contacts.create({
+    // Add to Resend contacts (global in SDK v6 — audienceId no longer used)
+    const { error: contactError } = await resend.contacts.create({
       email,
-      audienceId: process.env.RESEND_AUDIENCE_ID!,
       unsubscribed: false,
     });
+    if (contactError) {
+      console.error('Resend contact create failed:', contactError);
+      return NextResponse.json({ error: 'Failed to add contact' }, { status: 500 });
+    }
 
     // Send welcome email
     await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL!,
       to: email,
-      subject: 'The vault opens April 1 — your free skill is inside 🔐',
+      subject: 'You\'re in — the vault opens April 1',
       html: `
         <div style="font-family: Georgia, serif; max-width: 560px; margin: 0 auto;
                     background: #0b0a07; color: #e8e0d0; padding: 48px 40px;">
@@ -51,7 +54,7 @@ export async function POST(req: NextRequest) {
             <div style="font-family: monospace; font-size: 10px;
                         color: #d4820a; letter-spacing: 0.15em;
                         text-transform: uppercase; margin-bottom: 12px;">
-              // your free skill — no strings
+              // this week's featured skill
             </div>
             <p style="font-size: 15px; color: #e8e0d0;
                       margin-bottom: 16px; line-height: 1.6;">
@@ -59,7 +62,7 @@ export async function POST(req: NextRequest) {
               Claude Code automations with real ROI and drafts
               LinkedIn-ready posts. Install it in Claude Code today.
             </p>
-            <a href="${process.env.NEXT_PUBLIC_APP_URL}#free-skill"
+            <a href="${process.env.NEXT_PUBLIC_APP_URL}#featured-skill"
                style="display: inline-block; background: #d4820a;
                       color: #0b0a07; font-family: monospace;
                       font-size: 12px; font-weight: 700;

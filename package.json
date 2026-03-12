@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "sync-skills": "tsx scripts/sync-skills.ts",
-    "generate-skills": "tsx scripts/generate-skills.ts"
+    "generate-skills": "tsx scripts/generate-skills.ts",
+    "skill-pipeline": "tsx scripts/skill-pipeline.ts",
+    "verify-skills": "tsx scripts/verify-skills.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.0",

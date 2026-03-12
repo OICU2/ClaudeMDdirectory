@@ -1,7 +1,6 @@
 import { supabaseAdmin } from '@/lib/supabase';
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY!;
-const RESEND_AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID!;
 
 async function getStats() {
   // Skills count
@@ -9,27 +8,31 @@ async function getStats() {
     .from('skills')
     .select('*', { count: 'exact', head: true });
 
-  // Email count from Resend
+  // Email count from Resend (global contacts — SDK v6 no longer uses audienceId)
   let emailCount = 0;
+  let emailError = '';
   try {
-    const res = await fetch(
-      `https://api.resend.com/audiences/${RESEND_AUDIENCE_ID}/contacts`,
-      {
-        headers: { Authorization: `Bearer ${RESEND_API_KEY}` },
-        cache: 'no-store',
-      }
-    );
+    const res = await fetch('https://api.resend.com/emails', {
+      headers: { Authorization: `Bearer ${RESEND_API_KEY}` },
+      cache: 'no-store',
+    });
     const json = await res.json();
-    emailCount = json?.data?.length ?? 0;
-  } catch {
+    if (!res.ok) {
+      emailError = `Resend ${res.status}: ${json?.message || JSON.stringify(json)}`;
+      emailCount = -1;
+    } else {
+      emailCount = json?.data?.length ?? 0;
+    }
+  } catch (err) {
+    emailError = String(err);
     emailCount = -1;
   }
 
-  return { skillCount: skillCount ?? 0, emailCount };
+  return { skillCount: skillCount ?? 0, emailCount, emailError };
 }
 
 export default async function Dashboard() {
-  const { skillCount, emailCount } = await getStats();
+  const { skillCount, emailCount, emailError } = await getStats();
 
   const stats = [
     { label: 'Skills in DB', value: skillCount },
@@ -70,7 +73,12 @@ export default async function Dashboard() {
         ))}
       </div>
 
-      <div style={{ marginTop: '48px', fontSize: '10px', color: '#2a2520' }}>
+      {emailError && (
+        <div style={{ marginTop: '24px', fontSize: '11px', color: '#c0392b', maxWidth: '600px', textAlign: 'center', wordBreak: 'break-all' }}>
+          Resend error: {emailError}
+        </div>
+      )}
+      <div style={{ marginTop: '24px', fontSize: '10px', color: '#2a2520' }}>
         refreshes on every load · {new Date().toLocaleString('en-US', { timeZone: 'America/Phoenix' })} MST
       </div>
     </div>

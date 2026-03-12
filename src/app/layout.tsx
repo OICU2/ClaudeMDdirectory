@@ -17,18 +17,20 @@ const crimson = Crimson_Pro({
 
 export const metadata: Metadata = {
   title: 'claude.md directory — The SKILL.md Library for Claude Code',
-  description: 'Browse, install, and share SKILL.md files for Claude Code. Community-built automations that save and make real money. Launching April 1, 2026.',
+  description: '350+ SKILL.md files for Claude Code professionals. One featured skill per week. Full library launching April 1, 2026.',
   openGraph: {
     title: 'claude.md directory',
     description: 'The community SKILL.md library Claude Code deserves.',
     url: 'https://claudemddirectory.com',
     siteName: 'claude.md directory',
     type: 'website',
+    images: [{ url: 'https://claudemddirectory.com/claudemddirectory-logo-512x512.png', width: 512, height: 512, alt: 'claudemddirectory' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'claude.md directory',
     description: 'The community SKILL.md library Claude Code deserves.',
+    images: ['https://claudemddirectory.com/claudemddirectory-logo-512x512.png'],
   },
 };
 

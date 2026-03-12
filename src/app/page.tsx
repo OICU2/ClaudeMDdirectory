@@ -108,8 +108,8 @@ export default function Home() {
           fontSize: '20px', color: '#9b9284', lineHeight: 1.7,
           maxWidth: '560px', margin: '0 auto 40px',
         }}>
-          Community-built SKILL.md files for Claude Code. Join early —
-          subscribers get the Solopreneur Pack (10 skills) free on launch day.
+          350+ SKILL.md files for Claude Code professionals. One featured skill
+          free every week. Full library launches April 1.
         </p>
 
         <div id="waitlist" style={{ display: 'flex', justifyContent: 'center', marginBottom: '48px' }}>
@@ -134,8 +134,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Free Skill Demo */}
-      <section id="free-skill" style={{
+      {/* Featured Skill */}
+      <section id="featured-skill" style={{
         maxWidth: '800px', margin: '0 auto',
         padding: '60px 24px',
         borderTop: '1px solid #1a1813',
@@ -147,14 +147,14 @@ export default function Home() {
             color: '#d4820a', textTransform: 'uppercase',
             marginBottom: '12px',
           }}>
-            // Install this in 30 seconds — no signup required
+            // This week's featured skill — rotates weekly
           </div>
           <h2 style={{
             fontFamily: 'var(--font-playfair), Georgia, serif',
             fontSize: '28px', fontWeight: 700,
             color: '#f0f0e8', marginBottom: '8px',
           }}>
-            Try a skill right now
+            Try it in 30 seconds
           </h2>
           <p style={{ fontFamily: 'var(--font-crimson), Georgia, serif', fontSize: '17px', color: '#9b9284' }}>
             Copy it. Paste it into Claude Code. Say <em>"commit"</em>. Done.
@@ -287,14 +287,14 @@ export default function Home() {
           lineHeight: 1.2,
         }}>
           Get early access.<br />
-          <span style={{ color: '#d4820a' }}>Free skill included.</span>
+          <span style={{ color: '#d4820a' }}>Solopreneur Pack on launch day.</span>
         </h2>
         <p style={{
           fontFamily: 'var(--font-crimson), Georgia, serif',
           fontSize: '18px', color: '#9b9284',
           marginBottom: '36px', lineHeight: 1.7,
         }}>
-          Early subscribers get the Solopreneur Skill Pack — 10 curated skills — free on launch day.
+          Early subscribers get the Solopreneur Skill Pack — 10 curated skills — delivered on April 1.
         </p>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <EmailForm source="footer" />
@@ -314,6 +314,7 @@ export default function Home() {
           lineHeight: 1.8,
         }}>
           claudemddirectory.com · Launching April 1, 2026<br />
+          Questions? <a href="mailto:claudemddirectory@gmail.com" style={{ color: '#3d3830', textDecoration: 'none' }}>claudemddirectory@gmail.com</a><br />
           © 2026 claudemddirectory.com · Run, owned, and operated by RepuVault LLC
         </div>
       </footer>

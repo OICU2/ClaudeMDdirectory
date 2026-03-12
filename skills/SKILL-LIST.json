@@ -1,288 +1,2102 @@
 [
-  { "name": "brand-positioning", "category": "marketing", "description": "Define and articulate where a brand sits in the market relative to competitors" },
-  { "name": "brand-messaging", "category": "marketing", "description": "Develop consistent messaging that communicates brand value to target audiences" },
-  { "name": "market-segmentation", "category": "marketing", "description": "Divide a market into distinct groups with shared needs or characteristics" },
-  { "name": "customer-persona-creation", "category": "marketing", "description": "Build detailed fictional profiles of ideal customers based on data and research" },
-  { "name": "copywriting-strategy", "category": "marketing", "description": "Plan and execute copy strategies across marketing channels to drive conversions" },
-  { "name": "persuasive-messaging", "category": "marketing", "description": "Craft messages that move audiences to act using psychology and narrative" },
-  { "name": "content-strategy", "category": "marketing", "description": "Plan content creation, distribution, and measurement to achieve business goals" },
-  { "name": "content-creation", "category": "marketing", "description": "Produce written, visual, and multimedia content that engages target audiences" },
-  { "name": "blog-content-strategy", "category": "marketing", "description": "Plan and execute blog content to drive traffic, leads, and authority" },
-  { "name": "video-marketing", "category": "marketing", "description": "Create and distribute video content that builds audience and drives conversions" },
-  { "name": "social-media-strategy", "category": "marketing", "description": "Plan social media presence, content, and growth across relevant platforms" },
-  { "name": "social-media-management", "category": "marketing", "description": "Execute daily social media operations including posting, engagement, and monitoring" },
-  { "name": "community-building", "category": "marketing", "description": "Build and nurture online communities around a brand or product" },
-  { "name": "email-marketing", "category": "marketing", "description": "Design and execute email campaigns that nurture leads and drive revenue" },
-  { "name": "newsletter-growth", "category": "marketing", "description": "Grow email newsletter subscriber lists through organic and paid strategies" },
-  { "name": "seo-strategy", "category": "marketing", "description": "Plan and execute search engine optimization to increase organic traffic" },
-  { "name": "keyword-research", "category": "marketing", "description": "Find and prioritize target keywords based on volume, difficulty, and intent" },
-  { "name": "paid-advertising-management", "category": "marketing", "description": "Plan, launch, and optimize paid ad campaigns across Google, Meta, and other platforms" },
-  { "name": "retargeting-campaigns", "category": "marketing", "description": "Re-engage website visitors and past customers through targeted ad sequences" },
-  { "name": "conversion-rate-optimization", "category": "marketing", "description": "Improve the percentage of visitors who take a desired action on a page" },
-  { "name": "landing-page-design", "category": "marketing", "description": "Design high-converting landing pages that capture leads or drive sales" },
-  { "name": "funnel-design", "category": "marketing", "description": "Map and build marketing funnels that move prospects from awareness to purchase" },
-  { "name": "marketing-analytics", "category": "marketing", "description": "Track, measure, and interpret marketing data to guide decisions" },
-  { "name": "campaign-planning", "category": "marketing", "description": "Plan multi-channel marketing campaigns with clear goals, timelines, and budgets" },
-  { "name": "marketing-automation", "category": "marketing", "description": "Set up automated marketing workflows that nurture leads at scale" },
-  { "name": "influencer-partnerships", "category": "marketing", "description": "Identify, negotiate, and manage influencer relationships for brand exposure" },
-  { "name": "affiliate-marketing", "category": "marketing", "description": "Build and manage affiliate programs that drive revenue through partner promotions" },
-  { "name": "referral-marketing", "category": "marketing", "description": "Design referral programs that incentivize existing customers to bring new ones" },
-  { "name": "viral-marketing-strategies", "category": "marketing", "description": "Create campaigns and content designed to spread organically through sharing" },
-  { "name": "ab-testing", "category": "marketing", "description": "Design and analyze A/B tests to improve marketing and product performance" },
-  { "name": "product-launch-marketing", "category": "marketing", "description": "Plan and execute coordinated go-to-market campaigns for new product launches" },
-  { "name": "growth-hacking", "category": "marketing", "description": "Find unconventional, rapid-growth tactics that scale user acquisition" },
-  { "name": "customer-journey-mapping", "category": "marketing", "description": "Visualize every touchpoint a customer has with a brand from discovery to loyalty" },
-  { "name": "audience-building", "category": "marketing", "description": "Grow an owned audience across email, social, and community channels" },
-  { "name": "podcast-marketing", "category": "marketing", "description": "Use podcasting as a channel for brand building, lead generation, and authority" },
-  { "name": "webinar-marketing", "category": "marketing", "description": "Plan and execute webinars that generate leads and convert attendees" },
-  { "name": "lead-magnet-design", "category": "marketing", "description": "Create high-value free offers that attract and capture target leads" },
-  { "name": "brand-storytelling", "category": "marketing", "description": "Craft and communicate the narrative that defines a brand's identity and purpose" },
-  { "name": "public-relations", "category": "marketing", "description": "Manage media relationships and press coverage to shape brand perception" },
-  { "name": "marketing-experimentation", "category": "marketing", "description": "Run structured experiments to test marketing hypotheses and find what works" },
-
-  { "name": "cash-flow-management", "category": "finance", "description": "Monitor and optimize cash inflows and outflows to maintain business liquidity" },
-  { "name": "budget-creation", "category": "finance", "description": "Build realistic operating budgets that align spending with business goals" },
-  { "name": "profit-analysis", "category": "finance", "description": "Analyze revenue and costs to understand true profitability by product or segment" },
-  { "name": "financial-forecasting", "category": "finance", "description": "Project future revenue, expenses, and cash position based on current trends" },
-  { "name": "expense-tracking", "category": "finance", "description": "Systematically record and categorize all business expenses for visibility and control" },
-  { "name": "bookkeeping-basics", "category": "finance", "description": "Maintain accurate financial records including transactions, invoices, and reconciliation" },
-  { "name": "accounting-fundamentals", "category": "finance", "description": "Understand and apply core accounting principles to business financial management" },
-  { "name": "cost-analysis", "category": "finance", "description": "Break down and evaluate costs to find savings and improve margins" },
-  { "name": "margin-calculation", "category": "finance", "description": "Calculate gross, operating, and net margins to understand business health" },
-  { "name": "break-even-analysis", "category": "finance", "description": "Determine the sales volume needed to cover all costs and reach profitability" },
-  { "name": "pricing-strategy", "category": "finance", "description": "Set prices that maximize revenue while remaining competitive and covering costs" },
-  { "name": "revenue-forecasting", "category": "finance", "description": "Project future revenue based on pipeline, growth rates, and market conditions" },
-  { "name": "financial-reporting", "category": "finance", "description": "Produce accurate financial statements including P&L, balance sheet, and cash flow" },
-  { "name": "roi-analysis", "category": "finance", "description": "Measure return on investment for projects, campaigns, and capital expenditures" },
-  { "name": "unit-economics", "category": "finance", "description": "Analyze per-unit profitability including CAC, LTV, and contribution margin" },
-  { "name": "tax-planning-basics", "category": "finance", "description": "Plan business activities to minimize tax liability within legal requirements" },
-  { "name": "business-tax-compliance", "category": "finance", "description": "Ensure accurate and timely tax filings across federal, state, and local requirements" },
-  { "name": "financial-dashboard-creation", "category": "finance", "description": "Build visual dashboards that surface key financial metrics in real time" },
-  { "name": "scenario-planning", "category": "finance", "description": "Model best-case, base-case, and worst-case financial scenarios for decision making" },
-  { "name": "risk-assessment", "category": "finance", "description": "Identify and quantify financial risks that could impact business performance" },
-  { "name": "investment-evaluation", "category": "finance", "description": "Assess potential investments using ROI, payback period, and NPV analysis" },
-  { "name": "capital-allocation", "category": "finance", "description": "Decide how to deploy limited capital across competing business priorities" },
-  { "name": "cost-control-systems", "category": "finance", "description": "Build systems that monitor and enforce spending limits across the business" },
-  { "name": "vendor-payment-management", "category": "finance", "description": "Manage vendor invoices, payment schedules, and cash flow timing" },
-  { "name": "payment-processing-setup", "category": "finance", "description": "Configure payment systems including Stripe, invoicing, and collection workflows" },
-  { "name": "subscription-revenue-modeling", "category": "finance", "description": "Model recurring revenue metrics including MRR, churn, and expansion revenue" },
-  { "name": "financial-modeling", "category": "finance", "description": "Build dynamic spreadsheet models that project business financials under various assumptions" },
-  { "name": "profit-optimization", "category": "finance", "description": "Identify and implement changes that increase net profit without sacrificing growth" },
-  { "name": "debt-management", "category": "finance", "description": "Track and strategically manage business debt obligations and repayment" },
-  { "name": "cash-reserve-planning", "category": "finance", "description": "Determine and maintain appropriate cash reserves for business stability" },
-  { "name": "budget-variance-analysis", "category": "finance", "description": "Compare actual spending to budget and explain variances for corrective action" },
-  { "name": "business-valuation-basics", "category": "finance", "description": "Estimate the market value of a business using revenue multiples and asset analysis" },
-  { "name": "expense-optimization", "category": "finance", "description": "Audit and reduce unnecessary expenses without impacting core business operations" },
-  { "name": "financial-kpi-tracking", "category": "finance", "description": "Define and monitor the financial KPIs most critical to business success" },
-  { "name": "burn-rate-calculation", "category": "finance", "description": "Calculate monthly cash burn and determine runway for planning purposes" },
-  { "name": "revenue-diversification-planning", "category": "finance", "description": "Identify and develop additional revenue streams to reduce dependency on one source" },
-  { "name": "financial-audits", "category": "finance", "description": "Conduct internal financial audits to verify accuracy and identify discrepancies" },
-  { "name": "fraud-detection-awareness", "category": "finance", "description": "Identify red flags and implement controls to prevent financial fraud" },
-  { "name": "payroll-management-basics", "category": "finance", "description": "Process payroll accurately and compliantly for employees and contractors" },
-  { "name": "financial-compliance-basics", "category": "finance", "description": "Understand and maintain compliance with financial regulations relevant to the business" },
-
-  { "name": "programming-fundamentals", "category": "developer", "description": "Understand and apply core programming concepts including variables, loops, and functions" },
-  { "name": "algorithm-design", "category": "developer", "description": "Design efficient algorithms to solve computational problems" },
-  { "name": "data-structures", "category": "developer", "description": "Choose and implement appropriate data structures for performance and clarity" },
-  { "name": "web-development-basics", "category": "developer", "description": "Build foundational web applications using HTML, CSS, and JavaScript" },
-  { "name": "html-development", "category": "developer", "description": "Write semantic, accessible HTML for web pages and applications" },
-  { "name": "css-styling", "category": "developer", "description": "Style web interfaces using CSS including layout, animation, and responsive design" },
-  { "name": "javascript-programming", "category": "developer", "description": "Write JavaScript for frontend interactivity, APIs, and Node.js backends" },
-  { "name": "backend-development", "category": "developer", "description": "Build server-side applications, APIs, and data layers for web and mobile apps" },
-  { "name": "api-integration", "category": "developer", "description": "Connect and consume third-party APIs using REST, GraphQL, or webhooks" },
-  { "name": "database-design", "category": "developer", "description": "Design normalized, performant database schemas for relational and NoSQL databases" },
-  { "name": "sql-querying", "category": "developer", "description": "Write efficient SQL queries for data retrieval, aggregation, and manipulation" },
-  { "name": "version-control-git", "category": "developer", "description": "Use Git for source control including branching, merging, and collaboration workflows" },
-  { "name": "debugging-techniques", "category": "developer", "description": "Systematically identify and fix bugs using breakpoints, logs, and profiling tools" },
-  { "name": "software-testing", "category": "developer", "description": "Write and run unit, integration, and end-to-end tests to verify software correctness" },
-  { "name": "devops-basics", "category": "developer", "description": "Understand and apply DevOps principles including CI/CD, containers, and monitoring" },
-  { "name": "cloud-computing-basics", "category": "developer", "description": "Deploy and manage applications on cloud platforms including AWS, GCP, and Azure" },
-  { "name": "server-management", "category": "developer", "description": "Configure, secure, and maintain Linux servers and VPS environments" },
-  { "name": "application-security-basics", "category": "developer", "description": "Identify and fix common security vulnerabilities including OWASP Top 10" },
-  { "name": "authentication-systems", "category": "developer", "description": "Implement secure user authentication including OAuth, JWT, and session management" },
-  { "name": "performance-optimization", "category": "developer", "description": "Profile and optimize application performance for speed, memory, and throughput" },
-  { "name": "software-architecture", "category": "developer", "description": "Design scalable, maintainable software systems using proven architectural patterns" },
-  { "name": "microservices-architecture", "category": "developer", "description": "Design and build loosely coupled microservices that scale independently" },
-  { "name": "mobile-app-development-basics", "category": "developer", "description": "Build cross-platform mobile applications using React Native or similar frameworks" },
-  { "name": "ui-development", "category": "developer", "description": "Build responsive, accessible user interfaces using modern frontend frameworks" },
-  { "name": "ux-engineering-basics", "category": "developer", "description": "Apply UX principles to code including accessibility, usability, and interaction design" },
-  { "name": "automation-scripting", "category": "developer", "description": "Write scripts that automate repetitive development and operations tasks" },
-  { "name": "web-scraping", "category": "developer", "description": "Extract structured data from websites using scraping tools and techniques" },
-  { "name": "data-pipeline-basics", "category": "developer", "description": "Build ETL pipelines that ingest, transform, and load data between systems" },
-  { "name": "ai-api-integration", "category": "developer", "description": "Integrate AI APIs including OpenAI, Anthropic, and HuggingFace into applications" },
-  { "name": "machine-learning-basics", "category": "developer", "description": "Understand and apply basic ML concepts including training, inference, and evaluation" },
-  { "name": "continuous-integration-systems", "category": "developer", "description": "Set up CI pipelines that automatically build, test, and validate code changes" },
-  { "name": "continuous-deployment-systems", "category": "developer", "description": "Automate deployment pipelines that ship code to production safely and reliably" },
-  { "name": "package-management", "category": "developer", "description": "Manage dependencies using npm, pip, cargo, or other package managers effectively" },
-  { "name": "error-logging-systems", "category": "developer", "description": "Implement structured logging and error tracking to monitor application health" },
-  { "name": "monitoring-tools", "category": "developer", "description": "Set up application and infrastructure monitoring with alerts and dashboards" },
-  { "name": "code-documentation", "category": "developer", "description": "Write clear, useful documentation for codebases, APIs, and developer guides" },
-  { "name": "technical-debugging-workflows", "category": "developer", "description": "Build systematic debugging workflows for diagnosing complex technical issues" },
-  { "name": "system-integration", "category": "developer", "description": "Connect disparate systems using APIs, webhooks, message queues, and middleware" },
-  { "name": "infrastructure-as-code-basics", "category": "developer", "description": "Define and manage infrastructure using Terraform, Pulumi, or CloudFormation" },
-  { "name": "platform-scalability-engineering", "category": "developer", "description": "Design and implement systems that scale horizontally under increasing load" },
-
-  { "name": "systems-thinking", "category": "operations", "description": "Analyze complex systems to understand how components interact and affect outcomes" },
-  { "name": "workflow-design", "category": "operations", "description": "Design efficient workflows that move work through a process with minimal friction" },
-  { "name": "process-mapping", "category": "operations", "description": "Document business processes visually to identify bottlenecks and improvement opportunities" },
-  { "name": "standard-operating-procedures", "category": "operations", "description": "Write clear SOPs that enable consistent execution without direct supervision" },
-  { "name": "documentation-systems", "category": "operations", "description": "Build systems for creating, organizing, and maintaining operational documentation" },
-  { "name": "project-management", "category": "operations", "description": "Plan, execute, and close projects on time and within scope and budget" },
-  { "name": "task-management-systems", "category": "operations", "description": "Set up and maintain task tracking systems that keep work organized and visible" },
-  { "name": "operational-dashboards", "category": "operations", "description": "Build dashboards that surface real-time operational metrics for decision making" },
-  { "name": "kpi-tracking", "category": "operations", "description": "Define, measure, and review KPIs that reflect operational health and progress" },
-  { "name": "process-optimization", "category": "operations", "description": "Analyze and improve processes to reduce waste, time, and cost" },
-  { "name": "efficiency-analysis", "category": "operations", "description": "Measure operational efficiency and identify opportunities to do more with less" },
-  { "name": "quality-assurance-systems", "category": "operations", "description": "Build QA processes that catch errors before they reach customers" },
-  { "name": "inventory-management", "category": "operations", "description": "Track and optimize inventory levels to meet demand without excess" },
-  { "name": "vendor-coordination", "category": "operations", "description": "Manage vendor relationships, contracts, and delivery performance" },
-  { "name": "logistics-planning", "category": "operations", "description": "Plan and optimize the movement of goods, information, or resources" },
-  { "name": "scheduling-systems", "category": "operations", "description": "Build scheduling systems that allocate time and resources effectively" },
-  { "name": "resource-allocation", "category": "operations", "description": "Distribute people, time, and budget across competing priorities effectively" },
-  { "name": "capacity-planning", "category": "operations", "description": "Forecast and plan for future resource needs based on growth and demand" },
-  { "name": "process-automation", "category": "operations", "description": "Automate repetitive operational tasks using tools like n8n, Zapier, or custom scripts" },
-  { "name": "risk-mitigation-planning", "category": "operations", "description": "Identify operational risks and build contingency plans to minimize impact" },
-  { "name": "incident-management", "category": "operations", "description": "Detect, respond to, and learn from operational incidents and outages" },
-  { "name": "operational-reporting", "category": "operations", "description": "Produce regular operational reports that keep stakeholders informed" },
-  { "name": "continuous-improvement-methods", "category": "operations", "description": "Apply Kaizen, Lean, or other methodologies to drive ongoing operational improvement" },
-  { "name": "root-cause-analysis", "category": "operations", "description": "Use structured methods to find the true cause of operational problems" },
-  { "name": "workflow-monitoring", "category": "operations", "description": "Monitor active workflows for errors, delays, and performance issues" },
-  { "name": "digital-asset-management", "category": "operations", "description": "Organize and manage digital files, media, and content across the business" },
-  { "name": "knowledge-base-systems", "category": "operations", "description": "Build and maintain internal knowledge bases that capture institutional knowledge" },
-  { "name": "team-coordination-tools", "category": "operations", "description": "Set up and optimize tools that keep distributed teams aligned and productive" },
-  { "name": "service-delivery-management", "category": "operations", "description": "Manage the end-to-end delivery of services to customers at consistent quality" },
-  { "name": "performance-monitoring", "category": "operations", "description": "Track individual and team performance against defined goals and standards" },
-  { "name": "business-continuity-planning", "category": "operations", "description": "Plan how the business will continue operating during disruptions or disasters" },
-  { "name": "infrastructure-planning", "category": "operations", "description": "Plan the technical and physical infrastructure needed to support business growth" },
-  { "name": "task-prioritization-systems", "category": "operations", "description": "Build systems that help individuals and teams focus on the highest-impact work" },
-  { "name": "operations-analytics", "category": "operations", "description": "Analyze operational data to surface insights that drive efficiency improvements" },
-  { "name": "operational-audits", "category": "operations", "description": "Conduct audits of operational processes to verify compliance and identify gaps" },
-  { "name": "compliance-management", "category": "operations", "description": "Ensure business operations comply with relevant regulations and standards" },
-  { "name": "sla-management", "category": "operations", "description": "Define, track, and enforce service level agreements with customers and vendors" },
-  { "name": "change-management", "category": "operations", "description": "Plan and execute organizational changes with minimal disruption" },
-  { "name": "operational-resilience", "category": "operations", "description": "Build operations that can absorb shocks and recover quickly from disruptions" },
-  { "name": "systems-scalability-planning", "category": "operations", "description": "Plan how operational systems and processes will scale as the business grows" },
-
-  { "name": "market-research", "category": "research", "description": "Gather and analyze data about markets, competitors, and customers to inform strategy" },
-  { "name": "competitive-intelligence", "category": "research", "description": "Monitor and analyze competitor activities, positioning, and strategies" },
-  { "name": "industry-analysis", "category": "research", "description": "Analyze industry dynamics, trends, and forces that shape market opportunity" },
-  { "name": "trend-analysis", "category": "research", "description": "Identify and interpret emerging trends that could affect business strategy" },
-  { "name": "data-collection-methods", "category": "research", "description": "Design and execute data collection using surveys, interviews, observation, and tools" },
-  { "name": "survey-design", "category": "research", "description": "Create surveys that collect accurate, actionable data from target respondents" },
-  { "name": "interview-research", "category": "research", "description": "Conduct qualitative interviews that surface deep insights from target subjects" },
-  { "name": "customer-feedback-analysis", "category": "research", "description": "Analyze customer feedback to identify patterns, pain points, and opportunities" },
-  { "name": "data-interpretation", "category": "research", "description": "Translate raw data into meaningful conclusions and actionable recommendations" },
-  { "name": "qualitative-research", "category": "research", "description": "Design and conduct qualitative research to understand motivations and behaviors" },
-  { "name": "quantitative-research", "category": "research", "description": "Design and execute quantitative research to measure and test hypotheses at scale" },
-  { "name": "statistical-analysis-basics", "category": "research", "description": "Apply basic statistical methods to analyze data and draw valid conclusions" },
-  { "name": "literature-review", "category": "research", "description": "Systematically review existing research and synthesize findings on a topic" },
-  { "name": "information-synthesis", "category": "research", "description": "Combine information from multiple sources into coherent, actionable insights" },
-  { "name": "hypothesis-testing", "category": "research", "description": "Formulate and test hypotheses using appropriate statistical or experimental methods" },
-  { "name": "experiment-design", "category": "research", "description": "Design controlled experiments that produce reliable, reproducible results" },
-  { "name": "data-visualization", "category": "research", "description": "Create charts, graphs, and visuals that communicate data clearly and compellingly" },
-  { "name": "research-reporting", "category": "research", "description": "Write research reports that communicate findings clearly to non-technical audiences" },
-  { "name": "case-study-analysis", "category": "research", "description": "Analyze real-world cases to extract lessons and apply them to current situations" },
-  { "name": "behavioral-research", "category": "research", "description": "Study human behavior patterns to understand decision making and predict actions" },
-  { "name": "consumer-psychology-analysis", "category": "research", "description": "Analyze psychological factors that drive consumer buying decisions and preferences" },
-  { "name": "economic-trend-research", "category": "research", "description": "Monitor and interpret macroeconomic trends that affect business and markets" },
-  { "name": "technology-scouting", "category": "research", "description": "Identify emerging technologies with potential to disrupt or enable business strategy" },
-  { "name": "patent-research", "category": "research", "description": "Search and analyze patent databases to assess IP landscape and innovation opportunities" },
-  { "name": "academic-database-research", "category": "research", "description": "Search academic databases to find peer-reviewed research on target topics" },
-  { "name": "knowledge-mapping", "category": "research", "description": "Map relationships between concepts, sources, and insights in a knowledge domain" },
-  { "name": "competitive-benchmarking", "category": "research", "description": "Compare business metrics and practices against competitors and industry standards" },
-  { "name": "research-documentation", "category": "research", "description": "Document research methodology, sources, and findings for reproducibility and reference" },
-  { "name": "fact-verification", "category": "research", "description": "Verify claims and data against primary sources to ensure accuracy" },
-  { "name": "research-ethics", "category": "research", "description": "Apply ethical principles to research design, data collection, and reporting" },
-  { "name": "data-credibility-assessment", "category": "research", "description": "Evaluate the reliability and validity of data sources before using them" },
-  { "name": "scenario-research", "category": "research", "description": "Research and model future scenarios to support strategic planning and risk assessment" },
-  { "name": "forecast-modeling", "category": "research", "description": "Build quantitative models that project future states based on current data and trends" },
-  { "name": "emerging-technology-analysis", "category": "research", "description": "Analyze new technologies for maturity, adoption trajectory, and business impact" },
-  { "name": "user-research", "category": "research", "description": "Research user needs, behaviors, and pain points to inform product and UX decisions" },
-  { "name": "persona-validation", "category": "research", "description": "Test and validate customer personas against real user data and interviews" },
-  { "name": "product-testing-research", "category": "research", "description": "Design and run product tests that generate actionable feedback before launch" },
-  { "name": "field-research", "category": "research", "description": "Conduct on-the-ground research by observing subjects in their natural environment" },
-  { "name": "data-triangulation", "category": "research", "description": "Validate findings by cross-referencing multiple data sources and methods" },
-  { "name": "insight-extraction", "category": "research", "description": "Distill research data into the highest-signal insights that drive decisions" },
-
-  { "name": "prospecting", "category": "sales", "description": "Identify and build lists of qualified potential customers for outreach" },
-  { "name": "lead-qualification", "category": "sales", "description": "Assess whether prospects meet criteria for ideal customer profile before investing time" },
-  { "name": "sales-outreach", "category": "sales", "description": "Execute multi-channel outreach campaigns to engage qualified prospects" },
-  { "name": "cold-calling", "category": "sales", "description": "Make effective cold calls that open conversations with new prospects" },
-  { "name": "sales-emails", "category": "sales", "description": "Write cold and follow-up emails that get replies from prospects" },
-  { "name": "discovery-calls", "category": "sales", "description": "Run structured discovery calls that uncover prospect needs and qualification signals" },
-  { "name": "needs-analysis", "category": "sales", "description": "Diagnose prospect pain points and requirements to align solutions to real needs" },
-  { "name": "relationship-building", "category": "sales", "description": "Build genuine professional relationships that create long-term sales opportunities" },
-  { "name": "sales-presentations", "category": "sales", "description": "Deliver compelling presentations that communicate value and advance the sale" },
-  { "name": "sales-demonstrations", "category": "sales", "description": "Run product demos that show prospects exactly how the solution solves their problem" },
-  { "name": "proposal-writing", "category": "sales", "description": "Write persuasive proposals that clearly articulate value and win deals" },
-  { "name": "sales-closing", "category": "sales", "description": "Apply proven closing techniques that move prospects to a purchase decision" },
-  { "name": "negotiation", "category": "sales", "description": "Negotiate deal terms that protect margin while giving the buyer confidence" },
-  { "name": "objection-handling", "category": "sales", "description": "Address and overcome common sales objections with prepared, confident responses" },
-  { "name": "sales-psychology", "category": "sales", "description": "Apply psychological principles of persuasion and influence to improve sales outcomes" },
-  { "name": "pricing-discussions", "category": "sales", "description": "Navigate pricing conversations that defend value and close at target price" },
-  { "name": "upselling-techniques", "category": "sales", "description": "Identify and execute upsell opportunities that increase deal value" },
-  { "name": "cross-selling-techniques", "category": "sales", "description": "Recommend complementary products that add value and expand the customer relationship" },
-  { "name": "sales-pipeline-management", "category": "sales", "description": "Track and manage deals through the pipeline to forecast and prioritize effectively" },
-  { "name": "crm-management", "category": "sales", "description": "Maintain accurate CRM records and use data to improve sales performance" },
-  { "name": "follow-up-strategy", "category": "sales", "description": "Build systematic follow-up sequences that keep deals moving without being pushy" },
-  { "name": "referral-selling", "category": "sales", "description": "Generate new opportunities by asking existing customers and contacts for referrals" },
-  { "name": "account-management", "category": "sales", "description": "Manage existing customer relationships to retain, expand, and protect revenue" },
-  { "name": "territory-planning", "category": "sales", "description": "Plan geographic or segment-based sales territories to maximize coverage and revenue" },
-  { "name": "sales-forecasting", "category": "sales", "description": "Project future sales based on pipeline, close rates, and historical patterns" },
-  { "name": "deal-structuring", "category": "sales", "description": "Structure deals with pricing, terms, and incentives that work for both sides" },
-  { "name": "contract-negotiation", "category": "sales", "description": "Negotiate contract terms that close deals while protecting business interests" },
-  { "name": "partnership-selling", "category": "sales", "description": "Sell through channel partners and strategic alliances to reach new markets" },
-  { "name": "enterprise-sales-strategy", "category": "sales", "description": "Navigate complex enterprise sales cycles with multiple stakeholders and long timelines" },
-  { "name": "high-ticket-selling", "category": "sales", "description": "Sell premium, high-value offerings using consultative and value-based approaches" },
-  { "name": "sales-scripts", "category": "sales", "description": "Write effective sales scripts for calls, emails, and demos that guide conversations" },
-  { "name": "sales-analytics", "category": "sales", "description": "Analyze sales data to identify trends, bottlenecks, and improvement opportunities" },
-  { "name": "competitive-selling", "category": "sales", "description": "Win deals against competitors by positioning unique strengths and handling comparisons" },
-  { "name": "customer-retention-selling", "category": "sales", "description": "Use proactive outreach and value delivery to retain customers and prevent churn" },
-  { "name": "sales-funnel-optimization", "category": "sales", "description": "Improve conversion rates at each stage of the sales funnel through testing and iteration" },
-  { "name": "sales-meeting-management", "category": "sales", "description": "Plan and run productive sales meetings that advance deals and build relationships" },
-  { "name": "sales-performance-tracking", "category": "sales", "description": "Track individual and team sales metrics to identify coaching and improvement opportunities" },
-  { "name": "commission-modeling-basics", "category": "sales", "description": "Design commission structures that motivate salespeople and align with business goals" },
-  { "name": "channel-sales-strategy", "category": "sales", "description": "Build and manage indirect sales channels including resellers and distributors" },
-  { "name": "strategic-account-selling", "category": "sales", "description": "Develop and execute long-term strategies for growing revenue in key accounts" },
-
-  { "name": "copywriting", "category": "writing", "description": "Write persuasive copy that motivates readers to take a specific action" },
-  { "name": "persuasive-writing", "category": "writing", "description": "Craft arguments and narratives that change minds and move readers to act" },
-  { "name": "technical-writing", "category": "writing", "description": "Write clear, accurate documentation for technical products and processes" },
-  { "name": "business-writing", "category": "writing", "description": "Write professional business communications including memos, reports, and emails" },
-  { "name": "blog-writing", "category": "writing", "description": "Write engaging blog posts that inform, entertain, and drive organic traffic" },
-  { "name": "article-writing", "category": "writing", "description": "Write well-researched articles for publications, media, and content platforms" },
-  { "name": "script-writing", "category": "writing", "description": "Write scripts for video, podcast, webinar, and presentation formats" },
-  { "name": "storytelling", "category": "writing", "description": "Use narrative structure and character to make ideas compelling and memorable" },
-  { "name": "editing", "category": "writing", "description": "Improve written content for clarity, flow, accuracy, and impact" },
-  { "name": "proofreading", "category": "writing", "description": "Catch grammar, spelling, punctuation, and consistency errors before publication" },
-  { "name": "content-structuring", "category": "writing", "description": "Organize written content with clear hierarchy, flow, and logical progression" },
-  { "name": "seo-writing", "category": "writing", "description": "Write content optimized for search intent and keyword targeting without sacrificing quality" },
-  { "name": "email-writing", "category": "writing", "description": "Write emails that get opened, read, and acted on by the intended recipients" },
-  { "name": "newsletter-writing", "category": "writing", "description": "Write newsletters that subscribers look forward to reading and sharing" },
-  { "name": "landing-page-writing", "category": "writing", "description": "Write landing page copy that converts visitors into leads or customers" },
-  { "name": "sales-page-writing", "category": "writing", "description": "Write long-form sales pages that overcome objections and close sales" },
-  { "name": "ad-copy-writing", "category": "writing", "description": "Write short, high-impact ad copy for paid channels including Google and Meta" },
-  { "name": "product-description-writing", "category": "writing", "description": "Write product descriptions that communicate value and drive purchase decisions" },
-  { "name": "ghostwriting", "category": "writing", "description": "Write content in another person's voice and style for attribution under their name" },
-  { "name": "case-study-writing", "category": "writing", "description": "Write customer success case studies that build credibility and support sales" },
-  { "name": "white-paper-writing", "category": "writing", "description": "Write authoritative white papers that establish expertise and generate leads" },
-  { "name": "research-report-writing", "category": "writing", "description": "Write structured research reports that present findings clearly and credibly" },
-  { "name": "speech-writing", "category": "writing", "description": "Write speeches that inform, inspire, or persuade live and recorded audiences" },
-  { "name": "social-media-writing", "category": "writing", "description": "Write platform-native content for Twitter, LinkedIn, Instagram, and other channels" },
-  { "name": "long-form-content-writing", "category": "writing", "description": "Write comprehensive guides, essays, and deep-dive content that earns authority" },
-  { "name": "microcopy-writing", "category": "writing", "description": "Write UI microcopy including buttons, tooltips, error messages, and onboarding text" },
-  { "name": "brand-voice-development", "category": "writing", "description": "Define and document a brand's distinctive writing voice, tone, and style" },
-  { "name": "writing-headlines", "category": "writing", "description": "Write headlines that stop the scroll and compel readers to engage with content" },
-  { "name": "writing-hooks", "category": "writing", "description": "Write opening lines and hooks that pull readers into articles, posts, and emails" },
-  { "name": "writing-calls-to-action", "category": "writing", "description": "Write CTAs that clearly direct readers to the next step and motivate action" },
-  { "name": "narrative-development", "category": "writing", "description": "Build narrative arcs and story structures that engage readers from start to finish" },
-  { "name": "argument-construction", "category": "writing", "description": "Build logical, evidence-based arguments that persuade skeptical readers" },
-  { "name": "content-rewriting", "category": "writing", "description": "Rewrite existing content to improve clarity, tone, SEO, or audience fit" },
-  { "name": "writing-summaries", "category": "writing", "description": "Distill long content into accurate, useful summaries without losing key information" },
-  { "name": "interview-transcription-writing", "category": "writing", "description": "Transform interview transcripts into polished, readable written content" },
-  { "name": "educational-writing", "category": "writing", "description": "Write instructional content that teaches concepts clearly and progressively" },
-  { "name": "instructional-writing", "category": "writing", "description": "Write step-by-step instructions and how-to guides that readers can actually follow" },
-  { "name": "content-repurposing", "category": "writing", "description": "Transform existing content into new formats and channels to extend its reach" },
-  { "name": "writing-style-adaptation", "category": "writing", "description": "Adjust writing style, tone, and complexity to match different audiences and contexts" },
-  { "name": "editing-for-clarity", "category": "writing", "description": "Edit content to eliminate ambiguity, jargon, and unnecessary complexity" }
+  {
+    "name": "brand-positioning",
+    "category": "marketing",
+    "description": "Define and articulate where a brand sits in the market relative to competitors"
+  },
+  {
+    "name": "brand-messaging",
+    "category": "marketing",
+    "description": "Develop consistent messaging that communicates brand value to target audiences"
+  },
+  {
+    "name": "market-segmentation",
+    "category": "marketing",
+    "description": "Divide a market into distinct groups with shared needs or characteristics"
+  },
+  {
+    "name": "customer-persona-creation",
+    "category": "marketing",
+    "description": "Build detailed fictional profiles of ideal customers based on data and research"
+  },
+  {
+    "name": "copywriting-strategy",
+    "category": "marketing",
+    "description": "Plan and execute copy strategies across marketing channels to drive conversions"
+  },
+  {
+    "name": "persuasive-messaging",
+    "category": "marketing",
+    "description": "Craft messages that move audiences to act using psychology and narrative"
+  },
+  {
+    "name": "content-strategy",
+    "category": "marketing",
+    "description": "Plan content creation, distribution, and measurement to achieve business goals"
+  },
+  {
+    "name": "content-creation",
+    "category": "marketing",
+    "description": "Produce written, visual, and multimedia content that engages target audiences"
+  },
+  {
+    "name": "blog-content-strategy",
+    "category": "marketing",
+    "description": "Plan and execute blog content to drive traffic, leads, and authority"
+  },
+  {
+    "name": "video-marketing",
+    "category": "marketing",
+    "description": "Create and distribute video content that builds audience and drives conversions"
+  },
+  {
+    "name": "social-media-strategy",
+    "category": "marketing",
+    "description": "Plan social media presence, content, and growth across relevant platforms"
+  },
+  {
+    "name": "social-media-management",
+    "category": "marketing",
+    "description": "Execute daily social media operations including posting, engagement, and monitoring"
+  },
+  {
+    "name": "community-building",
+    "category": "marketing",
+    "description": "Build and nurture online communities around a brand or product"
+  },
+  {
+    "name": "email-marketing",
+    "category": "marketing",
+    "description": "Design and execute email campaigns that nurture leads and drive revenue"
+  },
+  {
+    "name": "newsletter-growth",
+    "category": "marketing",
+    "description": "Grow email newsletter subscriber lists through organic and paid strategies"
+  },
+  {
+    "name": "seo-strategy",
+    "category": "marketing",
+    "description": "Plan and execute search engine optimization to increase organic traffic"
+  },
+  {
+    "name": "keyword-research",
+    "category": "marketing",
+    "description": "Find and prioritize target keywords based on volume, difficulty, and intent"
+  },
+  {
+    "name": "paid-advertising-management",
+    "category": "marketing",
+    "description": "Plan, launch, and optimize paid ad campaigns across Google, Meta, and other platforms"
+  },
+  {
+    "name": "retargeting-campaigns",
+    "category": "marketing",
+    "description": "Re-engage website visitors and past customers through targeted ad sequences"
+  },
+  {
+    "name": "conversion-rate-optimization",
+    "category": "marketing",
+    "description": "Improve the percentage of visitors who take a desired action on a page"
+  },
+  {
+    "name": "landing-page-design",
+    "category": "marketing",
+    "description": "Design high-converting landing pages that capture leads or drive sales"
+  },
+  {
+    "name": "funnel-design",
+    "category": "marketing",
+    "description": "Map and build marketing funnels that move prospects from awareness to purchase"
+  },
+  {
+    "name": "marketing-analytics",
+    "category": "marketing",
+    "description": "Track, measure, and interpret marketing data to guide decisions"
+  },
+  {
+    "name": "campaign-planning",
+    "category": "marketing",
+    "description": "Plan multi-channel marketing campaigns with clear goals, timelines, and budgets"
+  },
+  {
+    "name": "marketing-automation",
+    "category": "marketing",
+    "description": "Set up automated marketing workflows that nurture leads at scale"
+  },
+  {
+    "name": "influencer-partnerships",
+    "category": "marketing",
+    "description": "Identify, negotiate, and manage influencer relationships for brand exposure"
+  },
+  {
+    "name": "affiliate-marketing",
+    "category": "marketing",
+    "description": "Build and manage affiliate programs that drive revenue through partner promotions"
+  },
+  {
+    "name": "referral-marketing",
+    "category": "marketing",
+    "description": "Design referral programs that incentivize existing customers to bring new ones"
+  },
+  {
+    "name": "viral-marketing-strategies",
+    "category": "marketing",
+    "description": "Create campaigns and content designed to spread organically through sharing"
+  },
+  {
+    "name": "ab-testing",
+    "category": "marketing",
+    "description": "Design and analyze A/B tests to improve marketing and product performance"
+  },
+  {
+    "name": "product-launch-marketing",
+    "category": "marketing",
+    "description": "Plan and execute coordinated go-to-market campaigns for new product launches"
+  },
+  {
+    "name": "growth-hacking",
+    "category": "marketing",
+    "description": "Find unconventional, rapid-growth tactics that scale user acquisition"
+  },
+  {
+    "name": "customer-journey-mapping",
+    "category": "marketing",
+    "description": "Visualize every touchpoint a customer has with a brand from discovery to loyalty"
+  },
+  {
+    "name": "audience-building",
+    "category": "marketing",
+    "description": "Grow an owned audience across email, social, and community channels"
+  },
+  {
+    "name": "podcast-marketing",
+    "category": "marketing",
+    "description": "Use podcasting as a channel for brand building, lead generation, and authority"
+  },
+  {
+    "name": "webinar-marketing",
+    "category": "marketing",
+    "description": "Plan and execute webinars that generate leads and convert attendees"
+  },
+  {
+    "name": "lead-magnet-design",
+    "category": "marketing",
+    "description": "Create high-value free offers that attract and capture target leads"
+  },
+  {
+    "name": "brand-storytelling",
+    "category": "marketing",
+    "description": "Craft and communicate the narrative that defines a brand's identity and purpose"
+  },
+  {
+    "name": "public-relations",
+    "category": "marketing",
+    "description": "Manage media relationships and press coverage to shape brand perception"
+  },
+  {
+    "name": "marketing-experimentation",
+    "category": "marketing",
+    "description": "Run structured experiments to test marketing hypotheses and find what works"
+  },
+  {
+    "name": "cash-flow-management",
+    "category": "finance",
+    "description": "Monitor and optimize cash inflows and outflows to maintain business liquidity"
+  },
+  {
+    "name": "budget-creation",
+    "category": "finance",
+    "description": "Build realistic operating budgets that align spending with business goals"
+  },
+  {
+    "name": "profit-analysis",
+    "category": "finance",
+    "description": "Analyze revenue and costs to understand true profitability by product or segment"
+  },
+  {
+    "name": "financial-forecasting",
+    "category": "finance",
+    "description": "Project future revenue, expenses, and cash position based on current trends"
+  },
+  {
+    "name": "expense-tracking",
+    "category": "finance",
+    "description": "Systematically record and categorize all business expenses for visibility and control"
+  },
+  {
+    "name": "bookkeeping-basics",
+    "category": "finance",
+    "description": "Maintain accurate financial records including transactions, invoices, and reconciliation"
+  },
+  {
+    "name": "accounting-fundamentals",
+    "category": "finance",
+    "description": "Understand and apply core accounting principles to business financial management"
+  },
+  {
+    "name": "cost-analysis",
+    "category": "finance",
+    "description": "Break down and evaluate costs to find savings and improve margins"
+  },
+  {
+    "name": "margin-calculation",
+    "category": "finance",
+    "description": "Calculate gross, operating, and net margins to understand business health"
+  },
+  {
+    "name": "break-even-analysis",
+    "category": "finance",
+    "description": "Determine the sales volume needed to cover all costs and reach profitability"
+  },
+  {
+    "name": "pricing-strategy",
+    "category": "finance",
+    "description": "Set prices that maximize revenue while remaining competitive and covering costs"
+  },
+  {
+    "name": "revenue-forecasting",
+    "category": "finance",
+    "description": "Project future revenue based on pipeline, growth rates, and market conditions"
+  },
+  {
+    "name": "financial-reporting",
+    "category": "finance",
+    "description": "Produce accurate financial statements including P&L, balance sheet, and cash flow"
+  },
+  {
+    "name": "roi-analysis",
+    "category": "finance",
+    "description": "Measure return on investment for projects, campaigns, and capital expenditures"
+  },
+  {
+    "name": "unit-economics",
+    "category": "finance",
+    "description": "Analyze per-unit profitability including CAC, LTV, and contribution margin"
+  },
+  {
+    "name": "tax-planning-basics",
+    "category": "finance",
+    "description": "Plan business activities to minimize tax liability within legal requirements"
+  },
+  {
+    "name": "business-tax-compliance",
+    "category": "finance",
+    "description": "Ensure accurate and timely tax filings across federal, state, and local requirements"
+  },
+  {
+    "name": "financial-dashboard-creation",
+    "category": "finance",
+    "description": "Build visual dashboards that surface key financial metrics in real time"
+  },
+  {
+    "name": "scenario-planning",
+    "category": "finance",
+    "description": "Model best-case, base-case, and worst-case financial scenarios for decision making"
+  },
+  {
+    "name": "risk-assessment",
+    "category": "finance",
+    "description": "Identify and quantify financial risks that could impact business performance"
+  },
+  {
+    "name": "investment-evaluation",
+    "category": "finance",
+    "description": "Assess potential investments using ROI, payback period, and NPV analysis"
+  },
+  {
+    "name": "capital-allocation",
+    "category": "finance",
+    "description": "Decide how to deploy limited capital across competing business priorities"
+  },
+  {
+    "name": "cost-control-systems",
+    "category": "finance",
+    "description": "Build systems that monitor and enforce spending limits across the business"
+  },
+  {
+    "name": "vendor-payment-management",
+    "category": "finance",
+    "description": "Manage vendor invoices, payment schedules, and cash flow timing"
+  },
+  {
+    "name": "payment-processing-setup",
+    "category": "finance",
+    "description": "Configure payment systems including Stripe, invoicing, and collection workflows"
+  },
+  {
+    "name": "subscription-revenue-modeling",
+    "category": "finance",
+    "description": "Model recurring revenue metrics including MRR, churn, and expansion revenue"
+  },
+  {
+    "name": "financial-modeling",
+    "category": "finance",
+    "description": "Build dynamic spreadsheet models that project business financials under various assumptions"
+  },
+  {
+    "name": "profit-optimization",
+    "category": "finance",
+    "description": "Identify and implement changes that increase net profit without sacrificing growth"
+  },
+  {
+    "name": "debt-management",
+    "category": "finance",
+    "description": "Track and strategically manage business debt obligations and repayment"
+  },
+  {
+    "name": "cash-reserve-planning",
+    "category": "finance",
+    "description": "Determine and maintain appropriate cash reserves for business stability"
+  },
+  {
+    "name": "budget-variance-analysis",
+    "category": "finance",
+    "description": "Compare actual spending to budget and explain variances for corrective action"
+  },
+  {
+    "name": "business-valuation-basics",
+    "category": "finance",
+    "description": "Estimate the market value of a business using revenue multiples and asset analysis"
+  },
+  {
+    "name": "expense-optimization",
+    "category": "finance",
+    "description": "Audit and reduce unnecessary expenses without impacting core business operations"
+  },
+  {
+    "name": "financial-kpi-tracking",
+    "category": "finance",
+    "description": "Define and monitor the financial KPIs most critical to business success"
+  },
+  {
+    "name": "burn-rate-calculation",
+    "category": "finance",
+    "description": "Calculate monthly cash burn and determine runway for planning purposes"
+  },
+  {
+    "name": "revenue-diversification-planning",
+    "category": "finance",
+    "description": "Identify and develop additional revenue streams to reduce dependency on one source"
+  },
+  {
+    "name": "financial-audits",
+    "category": "finance",
+    "description": "Conduct internal financial audits to verify accuracy and identify discrepancies"
+  },
+  {
+    "name": "fraud-detection-awareness",
+    "category": "finance",
+    "description": "Identify red flags and implement controls to prevent financial fraud"
+  },
+  {
+    "name": "payroll-management-basics",
+    "category": "finance",
+    "description": "Process payroll accurately and compliantly for employees and contractors"
+  },
+  {
+    "name": "financial-compliance-basics",
+    "category": "finance",
+    "description": "Understand and maintain compliance with financial regulations relevant to the business"
+  },
+  {
+    "name": "programming-fundamentals",
+    "category": "developer",
+    "description": "Understand and apply core programming concepts including variables, loops, and functions"
+  },
+  {
+    "name": "algorithm-design",
+    "category": "developer",
+    "description": "Design efficient algorithms to solve computational problems"
+  },
+  {
+    "name": "data-structures",
+    "category": "developer",
+    "description": "Choose and implement appropriate data structures for performance and clarity"
+  },
+  {
+    "name": "web-development-basics",
+    "category": "developer",
+    "description": "Build foundational web applications using HTML, CSS, and JavaScript"
+  },
+  {
+    "name": "html-development",
+    "category": "developer",
+    "description": "Write semantic, accessible HTML for web pages and applications"
+  },
+  {
+    "name": "css-styling",
+    "category": "developer",
+    "description": "Style web interfaces using CSS including layout, animation, and responsive design"
+  },
+  {
+    "name": "javascript-programming",
+    "category": "developer",
+    "description": "Write JavaScript for frontend interactivity, APIs, and Node.js backends"
+  },
+  {
+    "name": "backend-development",
+    "category": "developer",
+    "description": "Build server-side applications, APIs, and data layers for web and mobile apps"
+  },
+  {
+    "name": "api-integration",
+    "category": "developer",
+    "description": "Connect and consume third-party APIs using REST, GraphQL, or webhooks"
+  },
+  {
+    "name": "database-design",
+    "category": "developer",
+    "description": "Design normalized, performant database schemas for relational and NoSQL databases"
+  },
+  {
+    "name": "sql-querying",
+    "category": "developer",
+    "description": "Write efficient SQL queries for data retrieval, aggregation, and manipulation"
+  },
+  {
+    "name": "version-control-git",
+    "category": "developer",
+    "description": "Use Git for source control including branching, merging, and collaboration workflows"
+  },
+  {
+    "name": "debugging-techniques",
+    "category": "developer",
+    "description": "Systematically identify and fix bugs using breakpoints, logs, and profiling tools"
+  },
+  {
+    "name": "software-testing",
+    "category": "developer",
+    "description": "Write and run unit, integration, and end-to-end tests to verify software correctness"
+  },
+  {
+    "name": "devops-basics",
+    "category": "developer",
+    "description": "Understand and apply DevOps principles including CI/CD, containers, and monitoring"
+  },
+  {
+    "name": "cloud-computing-basics",
+    "category": "developer",
+    "description": "Deploy and manage applications on cloud platforms including AWS, GCP, and Azure"
+  },
+  {
+    "name": "server-management",
+    "category": "developer",
+    "description": "Configure, secure, and maintain Linux servers and VPS environments"
+  },
+  {
+    "name": "application-security-basics",
+    "category": "developer",
+    "description": "Identify and fix common security vulnerabilities including OWASP Top 10"
+  },
+  {
+    "name": "authentication-systems",
+    "category": "developer",
+    "description": "Implement secure user authentication including OAuth, JWT, and session management"
+  },
+  {
+    "name": "performance-optimization",
+    "category": "developer",
+    "description": "Profile and optimize application performance for speed, memory, and throughput"
+  },
+  {
+    "name": "software-architecture",
+    "category": "developer",
+    "description": "Design scalable, maintainable software systems using proven architectural patterns"
+  },
+  {
+    "name": "microservices-architecture",
+    "category": "developer",
+    "description": "Design and build loosely coupled microservices that scale independently"
+  },
+  {
+    "name": "mobile-app-development-basics",
+    "category": "developer",
+    "description": "Build cross-platform mobile applications using React Native or similar frameworks"
+  },
+  {
+    "name": "ui-development",
+    "category": "developer",
+    "description": "Build responsive, accessible user interfaces using modern frontend frameworks"
+  },
+  {
+    "name": "ux-engineering-basics",
+    "category": "developer",
+    "description": "Apply UX principles to code including accessibility, usability, and interaction design"
+  },
+  {
+    "name": "automation-scripting",
+    "category": "developer",
+    "description": "Write scripts that automate repetitive development and operations tasks"
+  },
+  {
+    "name": "web-scraping",
+    "category": "developer",
+    "description": "Extract structured data from websites using scraping tools and techniques"
+  },
+  {
+    "name": "data-pipeline-basics",
+    "category": "developer",
+    "description": "Build ETL pipelines that ingest, transform, and load data between systems"
+  },
+  {
+    "name": "ai-api-integration",
+    "category": "developer",
+    "description": "Integrate AI APIs including OpenAI, Anthropic, and HuggingFace into applications"
+  },
+  {
+    "name": "machine-learning-basics",
+    "category": "developer",
+    "description": "Understand and apply basic ML concepts including training, inference, and evaluation"
+  },
+  {
+    "name": "continuous-integration-systems",
+    "category": "developer",
+    "description": "Set up CI pipelines that automatically build, test, and validate code changes"
+  },
+  {
+    "name": "continuous-deployment-systems",
+    "category": "developer",
+    "description": "Automate deployment pipelines that ship code to production safely and reliably"
+  },
+  {
+    "name": "package-management",
+    "category": "developer",
+    "description": "Manage dependencies using npm, pip, cargo, or other package managers effectively"
+  },
+  {
+    "name": "error-logging-systems",
+    "category": "developer",
+    "description": "Implement structured logging and error tracking to monitor application health"
+  },
+  {
+    "name": "monitoring-tools",
+    "category": "developer",
+    "description": "Set up application and infrastructure monitoring with alerts and dashboards"
+  },
+  {
+    "name": "code-documentation",
+    "category": "developer",
+    "description": "Write clear, useful documentation for codebases, APIs, and developer guides"
+  },
+  {
+    "name": "technical-debugging-workflows",
+    "category": "developer",
+    "description": "Build systematic debugging workflows for diagnosing complex technical issues"
+  },
+  {
+    "name": "system-integration",
+    "category": "developer",
+    "description": "Connect disparate systems using APIs, webhooks, message queues, and middleware"
+  },
+  {
+    "name": "infrastructure-as-code-basics",
+    "category": "developer",
+    "description": "Define and manage infrastructure using Terraform, Pulumi, or CloudFormation"
+  },
+  {
+    "name": "platform-scalability-engineering",
+    "category": "developer",
+    "description": "Design and implement systems that scale horizontally under increasing load"
+  },
+  {
+    "name": "systems-thinking",
+    "category": "operations",
+    "description": "Analyze complex systems to understand how components interact and affect outcomes"
+  },
+  {
+    "name": "workflow-design",
+    "category": "operations",
+    "description": "Design efficient workflows that move work through a process with minimal friction"
+  },
+  {
+    "name": "process-mapping",
+    "category": "operations",
+    "description": "Document business processes visually to identify bottlenecks and improvement opportunities"
+  },
+  {
+    "name": "standard-operating-procedures",
+    "category": "operations",
+    "description": "Write clear SOPs that enable consistent execution without direct supervision"
+  },
+  {
+    "name": "documentation-systems",
+    "category": "operations",
+    "description": "Build systems for creating, organizing, and maintaining operational documentation"
+  },
+  {
+    "name": "project-management",
+    "category": "operations",
+    "description": "Plan, execute, and close projects on time and within scope and budget"
+  },
+  {
+    "name": "task-management-systems",
+    "category": "operations",
+    "description": "Set up and maintain task tracking systems that keep work organized and visible"
+  },
+  {
+    "name": "operational-dashboards",
+    "category": "operations",
+    "description": "Build dashboards that surface real-time operational metrics for decision making"
+  },
+  {
+    "name": "kpi-tracking",
+    "category": "operations",
+    "description": "Define, measure, and review KPIs that reflect operational health and progress"
+  },
+  {
+    "name": "process-optimization",
+    "category": "operations",
+    "description": "Analyze and improve processes to reduce waste, time, and cost"
+  },
+  {
+    "name": "efficiency-analysis",
+    "category": "operations",
+    "description": "Measure operational efficiency and identify opportunities to do more with less"
+  },
+  {
+    "name": "quality-assurance-systems",
+    "category": "operations",
+    "description": "Build QA processes that catch errors before they reach customers"
+  },
+  {
+    "name": "inventory-management",
+    "category": "operations",
+    "description": "Track and optimize inventory levels to meet demand without excess"
+  },
+  {
+    "name": "vendor-coordination",
+    "category": "operations",
+    "description": "Manage vendor relationships, contracts, and delivery performance"
+  },
+  {
+    "name": "logistics-planning",
+    "category": "operations",
+    "description": "Plan and optimize the movement of goods, information, or resources"
+  },
+  {
+    "name": "scheduling-systems",
+    "category": "operations",
+    "description": "Build scheduling systems that allocate time and resources effectively"
+  },
+  {
+    "name": "resource-allocation",
+    "category": "operations",
+    "description": "Distribute people, time, and budget across competing priorities effectively"
+  },
+  {
+    "name": "capacity-planning",
+    "category": "operations",
+    "description": "Forecast and plan for future resource needs based on growth and demand"
+  },
+  {
+    "name": "process-automation",
+    "category": "operations",
+    "description": "Automate repetitive operational tasks using tools like n8n, Zapier, or custom scripts"
+  },
+  {
+    "name": "risk-mitigation-planning",
+    "category": "operations",
+    "description": "Identify operational risks and build contingency plans to minimize impact"
+  },
+  {
+    "name": "incident-management",
+    "category": "operations",
+    "description": "Detect, respond to, and learn from operational incidents and outages"
+  },
+  {
+    "name": "operational-reporting",
+    "category": "operations",
+    "description": "Produce regular operational reports that keep stakeholders informed"
+  },
+  {
+    "name": "continuous-improvement-methods",
+    "category": "operations",
+    "description": "Apply Kaizen, Lean, or other methodologies to drive ongoing operational improvement"
+  },
+  {
+    "name": "root-cause-analysis",
+    "category": "operations",
+    "description": "Use structured methods to find the true cause of operational problems"
+  },
+  {
+    "name": "workflow-monitoring",
+    "category": "operations",
+    "description": "Monitor active workflows for errors, delays, and performance issues"
+  },
+  {
+    "name": "digital-asset-management",
+    "category": "operations",
+    "description": "Organize and manage digital files, media, and content across the business"
+  },
+  {
+    "name": "knowledge-base-systems",
+    "category": "operations",
+    "description": "Build and maintain internal knowledge bases that capture institutional knowledge"
+  },
+  {
+    "name": "team-coordination-tools",
+    "category": "operations",
+    "description": "Set up and optimize tools that keep distributed teams aligned and productive"
+  },
+  {
+    "name": "service-delivery-management",
+    "category": "operations",
+    "description": "Manage the end-to-end delivery of services to customers at consistent quality"
+  },
+  {
+    "name": "performance-monitoring",
+    "category": "operations",
+    "description": "Track individual and team performance against defined goals and standards"
+  },
+  {
+    "name": "business-continuity-planning",
+    "category": "operations",
+    "description": "Plan how the business will continue operating during disruptions or disasters"
+  },
+  {
+    "name": "infrastructure-planning",
+    "category": "operations",
+    "description": "Plan the technical and physical infrastructure needed to support business growth"
+  },
+  {
+    "name": "task-prioritization-systems",
+    "category": "operations",
+    "description": "Build systems that help individuals and teams focus on the highest-impact work"
+  },
+  {
+    "name": "operations-analytics",
+    "category": "operations",
+    "description": "Analyze operational data to surface insights that drive efficiency improvements"
+  },
+  {
+    "name": "operational-audits",
+    "category": "operations",
+    "description": "Conduct audits of operational processes to verify compliance and identify gaps"
+  },
+  {
+    "name": "compliance-management",
+    "category": "operations",
+    "description": "Ensure business operations comply with relevant regulations and standards"
+  },
+  {
+    "name": "sla-management",
+    "category": "operations",
+    "description": "Define, track, and enforce service level agreements with customers and vendors"
+  },
+  {
+    "name": "change-management",
+    "category": "operations",
+    "description": "Plan and execute organizational changes with minimal disruption"
+  },
+  {
+    "name": "operational-resilience",
+    "category": "operations",
+    "description": "Build operations that can absorb shocks and recover quickly from disruptions"
+  },
+  {
+    "name": "systems-scalability-planning",
+    "category": "operations",
+    "description": "Plan how operational systems and processes will scale as the business grows"
+  },
+  {
+    "name": "market-research",
+    "category": "research",
+    "description": "Gather and analyze data about markets, competitors, and customers to inform strategy"
+  },
+  {
+    "name": "competitive-intelligence",
+    "category": "research",
+    "description": "Monitor and analyze competitor activities, positioning, and strategies"
+  },
+  {
+    "name": "industry-analysis",
+    "category": "research",
+    "description": "Analyze industry dynamics, trends, and forces that shape market opportunity"
+  },
+  {
+    "name": "trend-analysis",
+    "category": "research",
+    "description": "Identify and interpret emerging trends that could affect business strategy"
+  },
+  {
+    "name": "data-collection-methods",
+    "category": "research",
+    "description": "Design and execute data collection using surveys, interviews, observation, and tools"
+  },
+  {
+    "name": "survey-design",
+    "category": "research",
+    "description": "Create surveys that collect accurate, actionable data from target respondents"
+  },
+  {
+    "name": "interview-research",
+    "category": "research",
+    "description": "Conduct qualitative interviews that surface deep insights from target subjects"
+  },
+  {
+    "name": "customer-feedback-analysis",
+    "category": "research",
+    "description": "Analyze customer feedback to identify patterns, pain points, and opportunities"
+  },
+  {
+    "name": "data-interpretation",
+    "category": "research",
+    "description": "Translate raw data into meaningful conclusions and actionable recommendations"
+  },
+  {
+    "name": "qualitative-research",
+    "category": "research",
+    "description": "Design and conduct qualitative research to understand motivations and behaviors"
+  },
+  {
+    "name": "quantitative-research",
+    "category": "research",
+    "description": "Design and execute quantitative research to measure and test hypotheses at scale"
+  },
+  {
+    "name": "statistical-analysis-basics",
+    "category": "research",
+    "description": "Apply basic statistical methods to analyze data and draw valid conclusions"
+  },
+  {
+    "name": "literature-review",
+    "category": "research",
+    "description": "Systematically review existing research and synthesize findings on a topic"
+  },
+  {
+    "name": "information-synthesis",
+    "category": "research",
+    "description": "Combine information from multiple sources into coherent, actionable insights"
+  },
+  {
+    "name": "hypothesis-testing",
+    "category": "research",
+    "description": "Formulate and test hypotheses using appropriate statistical or experimental methods"
+  },
+  {
+    "name": "experiment-design",
+    "category": "research",
+    "description": "Design controlled experiments that produce reliable, reproducible results"
+  },
+  {
+    "name": "data-visualization",
+    "category": "research",
+    "description": "Create charts, graphs, and visuals that communicate data clearly and compellingly"
+  },
+  {
+    "name": "research-reporting",
+    "category": "research",
+    "description": "Write research reports that communicate findings clearly to non-technical audiences"
+  },
+  {
+    "name": "case-study-analysis",
+    "category": "research",
+    "description": "Analyze real-world cases to extract lessons and apply them to current situations"
+  },
+  {
+    "name": "behavioral-research",
+    "category": "research",
+    "description": "Study human behavior patterns to understand decision making and predict actions"
+  },
+  {
+    "name": "consumer-psychology-analysis",
+    "category": "research",
+    "description": "Analyze psychological factors that drive consumer buying decisions and preferences"
+  },
+  {
+    "name": "economic-trend-research",
+    "category": "research",
+    "description": "Monitor and interpret macroeconomic trends that affect business and markets"
+  },
+  {
+    "name": "technology-scouting",
+    "category": "research",
+    "description": "Identify emerging technologies with potential to disrupt or enable business strategy"
+  },
+  {
+    "name": "patent-research",
+    "category": "research",
+    "description": "Search and analyze patent databases to assess IP landscape and innovation opportunities"
+  },
+  {
+    "name": "academic-database-research",
+    "category": "research",
+    "description": "Search academic databases to find peer-reviewed research on target topics"
+  },
+  {
+    "name": "knowledge-mapping",
+    "category": "research",
+    "description": "Map relationships between concepts, sources, and insights in a knowledge domain"
+  },
+  {
+    "name": "competitive-benchmarking",
+    "category": "research",
+    "description": "Compare business metrics and practices against competitors and industry standards"
+  },
+  {
+    "name": "research-documentation",
+    "category": "research",
+    "description": "Document research methodology, sources, and findings for reproducibility and reference"
+  },
+  {
+    "name": "fact-verification",
+    "category": "research",
+    "description": "Verify claims and data against primary sources to ensure accuracy"
+  },
+  {
+    "name": "research-ethics",
+    "category": "research",
+    "description": "Apply ethical principles to research design, data collection, and reporting"
+  },
+  {
+    "name": "data-credibility-assessment",
+    "category": "research",
+    "description": "Evaluate the reliability and validity of data sources before using them"
+  },
+  {
+    "name": "scenario-research",
+    "category": "research",
+    "description": "Research and model future scenarios to support strategic planning and risk assessment"
+  },
+  {
+    "name": "forecast-modeling",
+    "category": "research",
+    "description": "Build quantitative models that project future states based on current data and trends"
+  },
+  {
+    "name": "emerging-technology-analysis",
+    "category": "research",
+    "description": "Analyze new technologies for maturity, adoption trajectory, and business impact"
+  },
+  {
+    "name": "user-research",
+    "category": "research",
+    "description": "Research user needs, behaviors, and pain points to inform product and UX decisions"
+  },
+  {
+    "name": "persona-validation",
+    "category": "research",
+    "description": "Test and validate customer personas against real user data and interviews"
+  },
+  {
+    "name": "product-testing-research",
+    "category": "research",
+    "description": "Design and run product tests that generate actionable feedback before launch"
+  },
+  {
+    "name": "field-research",
+    "category": "research",
+    "description": "Conduct on-the-ground research by observing subjects in their natural environment"
+  },
+  {
+    "name": "data-triangulation",
+    "category": "research",
+    "description": "Validate findings by cross-referencing multiple data sources and methods"
+  },
+  {
+    "name": "insight-extraction",
+    "category": "research",
+    "description": "Distill research data into the highest-signal insights that drive decisions"
+  },
+  {
+    "name": "prospecting",
+    "category": "sales",
+    "description": "Identify and build lists of qualified potential customers for outreach"
+  },
+  {
+    "name": "lead-qualification",
+    "category": "sales",
+    "description": "Assess whether prospects meet criteria for ideal customer profile before investing time"
+  },
+  {
+    "name": "sales-outreach",
+    "category": "sales",
+    "description": "Execute multi-channel outreach campaigns to engage qualified prospects"
+  },
+  {
+    "name": "cold-calling",
+    "category": "sales",
+    "description": "Make effective cold calls that open conversations with new prospects"
+  },
+  {
+    "name": "sales-emails",
+    "category": "sales",
+    "description": "Write cold and follow-up emails that get replies from prospects"
+  },
+  {
+    "name": "discovery-calls",
+    "category": "sales",
+    "description": "Run structured discovery calls that uncover prospect needs and qualification signals"
+  },
+  {
+    "name": "needs-analysis",
+    "category": "sales",
+    "description": "Diagnose prospect pain points and requirements to align solutions to real needs"
+  },
+  {
+    "name": "relationship-building",
+    "category": "sales",
+    "description": "Build genuine professional relationships that create long-term sales opportunities"
+  },
+  {
+    "name": "sales-presentations",
+    "category": "sales",
+    "description": "Deliver compelling presentations that communicate value and advance the sale"
+  },
+  {
+    "name": "sales-demonstrations",
+    "category": "sales",
+    "description": "Run product demos that show prospects exactly how the solution solves their problem"
+  },
+  {
+    "name": "proposal-writing",
+    "category": "sales",
+    "description": "Write persuasive proposals that clearly articulate value and win deals"
+  },
+  {
+    "name": "sales-closing",
+    "category": "sales",
+    "description": "Apply proven closing techniques that move prospects to a purchase decision"
+  },
+  {
+    "name": "negotiation",
+    "category": "sales",
+    "description": "Negotiate deal terms that protect margin while giving the buyer confidence"
+  },
+  {
+    "name": "objection-handling",
+    "category": "sales",
+    "description": "Address and overcome common sales objections with prepared, confident responses"
+  },
+  {
+    "name": "sales-psychology",
+    "category": "sales",
+    "description": "Apply psychological principles of persuasion and influence to improve sales outcomes"
+  },
+  {
+    "name": "pricing-discussions",
+    "category": "sales",
+    "description": "Navigate pricing conversations that defend value and close at target price"
+  },
+  {
+    "name": "upselling-techniques",
+    "category": "sales",
+    "description": "Identify and execute upsell opportunities that increase deal value"
+  },
+  {
+    "name": "cross-selling-techniques",
+    "category": "sales",
+    "description": "Recommend complementary products that add value and expand the customer relationship"
+  },
+  {
+    "name": "sales-pipeline-management",
+    "category": "sales",
+    "description": "Track and manage deals through the pipeline to forecast and prioritize effectively"
+  },
+  {
+    "name": "crm-management",
+    "category": "sales",
+    "description": "Maintain accurate CRM records and use data to improve sales performance"
+  },
+  {
+    "name": "follow-up-strategy",
+    "category": "sales",
+    "description": "Build systematic follow-up sequences that keep deals moving without being pushy"
+  },
+  {
+    "name": "referral-selling",
+    "category": "sales",
+    "description": "Generate new opportunities by asking existing customers and contacts for referrals"
+  },
+  {
+    "name": "account-management",
+    "category": "sales",
+    "description": "Manage existing customer relationships to retain, expand, and protect revenue"
+  },
+  {
+    "name": "territory-planning",
+    "category": "sales",
+    "description": "Plan geographic or segment-based sales territories to maximize coverage and revenue"
+  },
+  {
+    "name": "sales-forecasting",
+    "category": "sales",
+    "description": "Project future sales based on pipeline, close rates, and historical patterns"
+  },
+  {
+    "name": "deal-structuring",
+    "category": "sales",
+    "description": "Structure deals with pricing, terms, and incentives that work for both sides"
+  },
+  {
+    "name": "contract-negotiation",
+    "category": "sales",
+    "description": "Negotiate contract terms that close deals while protecting business interests"
+  },
+  {
+    "name": "partnership-selling",
+    "category": "sales",
+    "description": "Sell through channel partners and strategic alliances to reach new markets"
+  },
+  {
+    "name": "enterprise-sales-strategy",
+    "category": "sales",
+    "description": "Navigate complex enterprise sales cycles with multiple stakeholders and long timelines"
+  },
+  {
+    "name": "high-ticket-selling",
+    "category": "sales",
+    "description": "Sell premium, high-value offerings using consultative and value-based approaches"
+  },
+  {
+    "name": "sales-scripts",
+    "category": "sales",
+    "description": "Write effective sales scripts for calls, emails, and demos that guide conversations"
+  },
+  {
+    "name": "sales-analytics",
+    "category": "sales",
+    "description": "Analyze sales data to identify trends, bottlenecks, and improvement opportunities"
+  },
+  {
+    "name": "competitive-selling",
+    "category": "sales",
+    "description": "Win deals against competitors by positioning unique strengths and handling comparisons"
+  },
+  {
+    "name": "customer-retention-selling",
+    "category": "sales",
+    "description": "Use proactive outreach and value delivery to retain customers and prevent churn"
+  },
+  {
+    "name": "sales-funnel-optimization",
+    "category": "sales",
+    "description": "Improve conversion rates at each stage of the sales funnel through testing and iteration"
+  },
+  {
+    "name": "sales-meeting-management",
+    "category": "sales",
+    "description": "Plan and run productive sales meetings that advance deals and build relationships"
+  },
+  {
+    "name": "sales-performance-tracking",
+    "category": "sales",
+    "description": "Track individual and team sales metrics to identify coaching and improvement opportunities"
+  },
+  {
+    "name": "commission-modeling-basics",
+    "category": "sales",
+    "description": "Design commission structures that motivate salespeople and align with business goals"
+  },
+  {
+    "name": "channel-sales-strategy",
+    "category": "sales",
+    "description": "Build and manage indirect sales channels including resellers and distributors"
+  },
+  {
+    "name": "strategic-account-selling",
+    "category": "sales",
+    "description": "Develop and execute long-term strategies for growing revenue in key accounts"
+  },
+  {
+    "name": "copywriting",
+    "category": "writing",
+    "description": "Write persuasive copy that motivates readers to take a specific action"
+  },
+  {
+    "name": "persuasive-writing",
+    "category": "writing",
+    "description": "Craft arguments and narratives that change minds and move readers to act"
+  },
+  {
+    "name": "technical-writing",
+    "category": "writing",
+    "description": "Write clear, accurate documentation for technical products and processes"
+  },
+  {
+    "name": "business-writing",
+    "category": "writing",
+    "description": "Write professional business communications including memos, reports, and emails"
+  },
+  {
+    "name": "blog-writing",
+    "category": "writing",
+    "description": "Write engaging blog posts that inform, entertain, and drive organic traffic"
+  },
+  {
+    "name": "article-writing",
+    "category": "writing",
+    "description": "Write well-researched articles for publications, media, and content platforms"
+  },
+  {
+    "name": "script-writing",
+    "category": "writing",
+    "description": "Write scripts for video, podcast, webinar, and presentation formats"
+  },
+  {
+    "name": "storytelling",
+    "category": "writing",
+    "description": "Use narrative structure and character to make ideas compelling and memorable"
+  },
+  {
+    "name": "editing",
+    "category": "writing",
+    "description": "Improve written content for clarity, flow, accuracy, and impact"
+  },
+  {
+    "name": "proofreading",
+    "category": "writing",
+    "description": "Catch grammar, spelling, punctuation, and consistency errors before publication"
+  },
+  {
+    "name": "content-structuring",
+    "category": "writing",
+    "description": "Organize written content with clear hierarchy, flow, and logical progression"
+  },
+  {
+    "name": "seo-writing",
+    "category": "writing",
+    "description": "Write content optimized for search intent and keyword targeting without sacrificing quality"
+  },
+  {
+    "name": "email-writing",
+    "category": "writing",
+    "description": "Write emails that get opened, read, and acted on by the intended recipients"
+  },
+  {
+    "name": "newsletter-writing",
+    "category": "writing",
+    "description": "Write newsletters that subscribers look forward to reading and sharing"
+  },
+  {
+    "name": "landing-page-writing",
+    "category": "writing",
+    "description": "Write landing page copy that converts visitors into leads or customers"
+  },
+  {
+    "name": "sales-page-writing",
+    "category": "writing",
+    "description": "Write long-form sales pages that overcome objections and close sales"
+  },
+  {
+    "name": "ad-copy-writing",
+    "category": "writing",
+    "description": "Write short, high-impact ad copy for paid channels including Google and Meta"
+  },
+  {
+    "name": "product-description-writing",
+    "category": "writing",
+    "description": "Write product descriptions that communicate value and drive purchase decisions"
+  },
+  {
+    "name": "ghostwriting",
+    "category": "writing",
+    "description": "Write content in another person's voice and style for attribution under their name"
+  },
+  {
+    "name": "case-study-writing",
+    "category": "writing",
+    "description": "Write customer success case studies that build credibility and support sales"
+  },
+  {
+    "name": "white-paper-writing",
+    "category": "writing",
+    "description": "Write authoritative white papers that establish expertise and generate leads"
+  },
+  {
+    "name": "research-report-writing",
+    "category": "writing",
+    "description": "Write structured research reports that present findings clearly and credibly"
+  },
+  {
+    "name": "speech-writing",
+    "category": "writing",
+    "description": "Write speeches that inform, inspire, or persuade live and recorded audiences"
+  },
+  {
+    "name": "social-media-writing",
+    "category": "writing",
+    "description": "Write platform-native content for Twitter, LinkedIn, Instagram, and other channels"
+  },
+  {
+    "name": "long-form-content-writing",
+    "category": "writing",
+    "description": "Write comprehensive guides, essays, and deep-dive content that earns authority"
+  },
+  {
+    "name": "microcopy-writing",
+    "category": "writing",
+    "description": "Write UI microcopy including buttons, tooltips, error messages, and onboarding text"
+  },
+  {
+    "name": "brand-voice-development",
+    "category": "writing",
+    "description": "Define and document a brand's distinctive writing voice, tone, and style"
+  },
+  {
+    "name": "writing-headlines",
+    "category": "writing",
+    "description": "Write headlines that stop the scroll and compel readers to engage with content"
+  },
+  {
+    "name": "writing-hooks",
+    "category": "writing",
+    "description": "Write opening lines and hooks that pull readers into articles, posts, and emails"
+  },
+  {
+    "name": "writing-calls-to-action",
+    "category": "writing",
+    "description": "Write CTAs that clearly direct readers to the next step and motivate action"
+  },
+  {
+    "name": "narrative-development",
+    "category": "writing",
+    "description": "Build narrative arcs and story structures that engage readers from start to finish"
+  },
+  {
+    "name": "argument-construction",
+    "category": "writing",
+    "description": "Build logical, evidence-based arguments that persuade skeptical readers"
+  },
+  {
+    "name": "content-rewriting",
+    "category": "writing",
+    "description": "Rewrite existing content to improve clarity, tone, SEO, or audience fit"
+  },
+  {
+    "name": "writing-summaries",
+    "category": "writing",
+    "description": "Distill long content into accurate, useful summaries without losing key information"
+  },
+  {
+    "name": "interview-transcription-writing",
+    "category": "writing",
+    "description": "Transform interview transcripts into polished, readable written content"
+  },
+  {
+    "name": "educational-writing",
+    "category": "writing",
+    "description": "Write instructional content that teaches concepts clearly and progressively"
+  },
+  {
+    "name": "instructional-writing",
+    "category": "writing",
+    "description": "Write step-by-step instructions and how-to guides that readers can actually follow"
+  },
+  {
+    "name": "content-repurposing",
+    "category": "writing",
+    "description": "Transform existing content into new formats and channels to extend its reach"
+  },
+  {
+    "name": "writing-style-adaptation",
+    "category": "writing",
+    "description": "Adjust writing style, tone, and complexity to match different audiences and contexts"
+  },
+  {
+    "name": "editing-for-clarity",
+    "category": "writing",
+    "description": "Edit content to eliminate ambiguity, jargon, and unnecessary complexity"
+  },
+  {
+    "name": "competitive-ad-analysis",
+    "category": "marketing",
+    "description": "Analyzes competitor ad creatives, messaging patterns, and positioning across platforms to identify gaps and opportunities for differentiation."
+  },
+  {
+    "name": "customer-lifetime-value-modeling",
+    "category": "marketing",
+    "description": "Builds models to calculate and segment customer lifetime value, enabling smarter budget allocation across acquisition and retention channels."
+  },
+  {
+    "name": "go-to-market-strategy",
+    "category": "marketing",
+    "description": "Develops a structured launch plan covering target segments, channels, messaging, pricing, and success metrics for a new product or feature."
+  },
+  {
+    "name": "media-mix-modeling",
+    "category": "marketing",
+    "description": "Evaluates the contribution of each marketing channel to revenue and recommends budget reallocation to maximize overall campaign performance."
+  },
+  {
+    "name": "brand-audit",
+    "category": "marketing",
+    "description": "Systematically reviews all brand touchpoints, assets, and messaging consistency to identify gaps between intended and perceived brand identity."
+  },
+  {
+    "name": "churn-reduction-campaigns",
+    "category": "marketing",
+    "description": "Designs targeted re-engagement and retention campaigns for at-risk customer segments based on behavioral signals and lifecycle stage."
+  },
+  {
+    "name": "sponsorship-strategy",
+    "category": "marketing",
+    "description": "Identifies, evaluates, and structures sponsorship opportunities with events, creators, or organizations that align with brand awareness and audience goals."
+  },
+  {
+    "name": "local-marketing-strategy",
+    "category": "marketing",
+    "description": "Creates geo-targeted marketing plans combining local SEO, community outreach, and hyper-local ad campaigns to drive foot traffic or regional conversions."
+  },
+  {
+    "name": "seasonal-campaign-planning",
+    "category": "marketing",
+    "description": "Builds a calendar-driven campaign framework that maps promotions, content themes, and budget spikes to seasonal demand patterns and key buying moments."
+  },
+  {
+    "name": "user-generated-content-strategy",
+    "category": "marketing",
+    "description": "Develops systems to incentivize, collect, curate, and repurpose customer-created content across marketing channels to build social proof and reduce content production costs."
+  },
+  {
+    "name": "invoice-reconciliation",
+    "category": "finance",
+    "description": "Matches invoices against purchase orders and payment records to identify discrepancies and unresolved balances."
+  },
+  {
+    "name": "cash-flow-forecasting-weekly",
+    "category": "finance",
+    "description": "Builds rolling 13-week cash flow projections by analyzing receivables, payables, and recurring transaction patterns."
+  },
+  {
+    "name": "equity-dilution-modeling",
+    "category": "finance",
+    "description": "Calculates how new funding rounds, option pools, and convertible notes dilute founder and investor ownership percentages."
+  },
+  {
+    "name": "loan-amortization-scheduling",
+    "category": "finance",
+    "description": "Generates full amortization tables for business loans showing principal, interest, and remaining balance per payment period."
+  },
+  {
+    "name": "accounts-receivable-aging",
+    "category": "finance",
+    "description": "Categorizes outstanding customer invoices by overdue time buckets to prioritize collections and flag bad debt risk."
+  },
+  {
+    "name": "working-capital-optimization",
+    "category": "finance",
+    "description": "Analyzes the gap between current assets and liabilities to identify strategies for improving short-term liquidity."
+  },
+  {
+    "name": "grant-budget-tracking",
+    "category": "finance",
+    "description": "Monitors spending against grant-specific budget line items to ensure compliance with funding restrictions and reporting requirements."
+  },
+  {
+    "name": "multi-entity-consolidation",
+    "category": "finance",
+    "description": "Combines financial statements from multiple business entities while eliminating intercompany transactions to produce consolidated reports."
+  },
+  {
+    "name": "contractor-payment-tracking",
+    "category": "finance",
+    "description": "Manages payment schedules, 1099 thresholds, and outstanding balances for independent contractors and freelancers."
+  },
+  {
+    "name": "currency-exposure-analysis",
+    "category": "finance",
+    "description": "Identifies and quantifies foreign exchange risk across revenue streams, expenses, and contracts denominated in multiple currencies."
+  },
+  {
+    "name": "code-review-automation",
+    "category": "developer",
+    "description": "Automates structured code review by analyzing pull requests for bugs, style violations, security issues, and performance problems with actionable inline feedback."
+  },
+  {
+    "name": "dependency-vulnerability-auditing",
+    "category": "developer",
+    "description": "Scans project dependency trees to identify outdated packages, known CVEs, and license conflicts then generates a prioritized remediation report."
+  },
+  {
+    "name": "openapi-specification-generation",
+    "category": "developer",
+    "description": "Generates complete OpenAPI/Swagger specification files from existing codebase routes, controllers, and request/response models for accurate API documentation."
+  },
+  {
+    "name": "database-migration-scripting",
+    "category": "developer",
+    "description": "Creates safe, reversible database migration scripts from schema diff analysis including rollback procedures and data integrity validation steps."
+  },
+  {
+    "name": "environment-configuration-management",
+    "category": "developer",
+    "description": "Designs and documents multi-environment configuration strategies covering secrets management, environment variable schemas, and safe defaults for dev, staging, and production."
+  },
+  {
+    "name": "technical-debt-assessment",
+    "category": "developer",
+    "description": "Analyzes a codebase to catalog technical debt items, estimate remediation effort, and produce a prioritized roadmap for incremental refactoring."
+  },
+  {
+    "name": "load-testing-scenario-design",
+    "category": "developer",
+    "description": "Designs realistic load testing scenarios with traffic ramp-up profiles, endpoint weighting, and threshold assertions to validate system performance under expected peak load."
+  },
+  {
+    "name": "containerization-setup",
+    "category": "developer",
+    "description": "Generates production-ready Dockerfiles, docker-compose configurations, and multi-stage build pipelines optimized for minimal image size and secure runtime defaults."
+  },
+  {
+    "name": "regex-pattern-engineering",
+    "category": "developer",
+    "description": "Builds, tests, and documents complex regular expressions for specific parsing or validation requirements with annotated explanations and edge case coverage."
+  },
+  {
+    "name": "sdk-client-library-design",
+    "category": "developer",
+    "description": "Designs the architecture and generates boilerplate for an SDK client library including authentication handling, retry logic, error normalization, and usage documentation."
+  },
+  {
+    "name": "shift-scheduling-optimization",
+    "category": "operations",
+    "description": "Builds optimized staff shift schedules by balancing availability, skill requirements, labor cost constraints, and coverage minimums across time periods."
+  },
+  {
+    "name": "supplier-scorecard-development",
+    "category": "operations",
+    "description": "Creates structured vendor performance scorecards that track delivery reliability, quality rates, pricing consistency, and responsiveness metrics over time."
+  },
+  {
+    "name": "equipment-maintenance-scheduling",
+    "category": "operations",
+    "description": "Generates preventive maintenance calendars for equipment and assets by mapping manufacturer intervals, usage data, and operational downtime windows."
+  },
+  {
+    "name": "onboarding-workflow-design",
+    "category": "operations",
+    "description": "Designs step-by-step employee or client onboarding workflows with task owners, deadlines, dependencies, and completion checkpoints documented in a repeatable system."
+  },
+  {
+    "name": "contract-renewal-tracking",
+    "category": "operations",
+    "description": "Builds a centralized tracking system for vendor and client contract renewal dates, alerting on upcoming expirations and documenting renegotiation terms."
+  },
+  {
+    "name": "service-cost-allocation",
+    "category": "operations",
+    "description": "Maps shared operational costs across departments, projects, or cost centers using allocation rules to produce accurate per-unit or per-service cost visibility."
+  },
+  {
+    "name": "procurement-process-design",
+    "category": "operations",
+    "description": "Designs end-to-end procurement workflows covering requisition, approval routing, vendor selection criteria, purchase order generation, and receipt confirmation steps."
+  },
+  {
+    "name": "operational-bottleneck-identification",
+    "category": "operations",
+    "description": "Analyzes process flow data and throughput metrics to identify and prioritize the specific workflow stages causing delays, waste, or capacity constraints."
+  },
+  {
+    "name": "facilities-management-planning",
+    "category": "operations",
+    "description": "Creates structured facilities management plans covering space utilization, cleaning schedules, safety inspections, lease obligations, and maintenance vendor assignments."
+  },
+  {
+    "name": "returns-and-refunds-process-design",
+    "category": "operations",
+    "description": "Designs standardized returns and refund handling workflows including intake criteria, approval thresholds, restocking logic, and customer communication templates."
+  },
+  {
+    "name": "source-credibility-scoring",
+    "category": "research",
+    "description": "Evaluates and scores research sources based on authority, recency, bias indicators, and citation frequency to prioritize the most reliable references."
+  },
+  {
+    "name": "research-gap-identification",
+    "category": "research",
+    "description": "Analyzes existing literature and datasets to identify unanswered questions, underexplored topics, and missing data points within a research domain."
+  },
+  {
+    "name": "systematic-review-protocol",
+    "category": "research",
+    "description": "Builds a structured protocol for conducting systematic reviews including inclusion criteria, search string construction, and screening workflows."
+  },
+  {
+    "name": "citation-network-analysis",
+    "category": "research",
+    "description": "Maps relationships between papers, authors, and institutions by analyzing citation patterns to surface the most influential works in a field."
+  },
+  {
+    "name": "research-question-refinement",
+    "category": "research",
+    "description": "Transforms broad research topics into precise, testable research questions by applying frameworks like PICO or SPIDER to sharpen focus and scope."
+  },
+  {
+    "name": "secondary-data-sourcing",
+    "category": "research",
+    "description": "Identifies and retrieves relevant publicly available datasets, government statistics, and industry reports to support research without primary data collection."
+  },
+  {
+    "name": "interview-discussion-guide-design",
+    "category": "research",
+    "description": "Drafts structured and semi-structured interview discussion guides with probing questions aligned to specific research objectives and participant segments."
+  },
+  {
+    "name": "coding-framework-development",
+    "category": "research",
+    "description": "Creates a systematic qualitative coding framework with defined categories, rules, and examples to enable consistent analysis across transcripts or documents."
+  },
+  {
+    "name": "research-brief-creation",
+    "category": "research",
+    "description": "Synthesizes research objectives, methodology, timeline, and key questions into a concise brief that aligns stakeholders before a research project begins."
+  },
+  {
+    "name": "longitudinal-data-tracking",
+    "category": "research",
+    "description": "Designs systems to collect, organize, and compare data across multiple time periods to identify trends, changes, and patterns over time."
+  },
+  {
+    "name": "sales-territory-mapping",
+    "category": "sales",
+    "description": "Defines geographic or account-based territory boundaries to balance workload and maximize revenue coverage across a sales team."
+  },
+  {
+    "name": "win-loss-analysis",
+    "category": "sales",
+    "description": "Analyzes closed deals to identify patterns in why opportunities were won or lost and generates actionable recommendations to improve future close rates."
+  },
+  {
+    "name": "sales-playbook-creation",
+    "category": "sales",
+    "description": "Builds a structured playbook documenting proven talk tracks, objection responses, and stage-by-stage actions for a specific product or market segment."
+  },
+  {
+    "name": "ideal-customer-profile-scoring",
+    "category": "sales",
+    "description": "Creates a weighted scoring model to rank prospects against firmographic and behavioral criteria that match your highest-value closed customers."
+  },
+  {
+    "name": "sales-compensation-plan-design",
+    "category": "sales",
+    "description": "Structures quota attainment tiers, accelerators, and SPIFs into a documented compensation plan that motivates reps and aligns with revenue targets."
+  },
+  {
+    "name": "competitive-battlecard-creation",
+    "category": "sales",
+    "description": "Produces a concise one-page battlecard for a specific competitor outlining key differentiators, landmines to plant, and responses to common comparison objections."
+  },
+  {
+    "name": "quote-and-pricing-sheet-generation",
+    "category": "sales",
+    "description": "Automates the assembly of customized, professionally formatted pricing quotes based on deal-specific inputs such as volume, term length, and product configuration."
+  },
+  {
+    "name": "sales-cadence-design",
+    "category": "sales",
+    "description": "Designs a multi-touch outreach sequence specifying channel, timing, and messaging for each step to systematically move cold prospects toward a booked meeting."
+  },
+  {
+    "name": "customer-health-scoring",
+    "category": "sales",
+    "description": "Builds a scoring framework using usage, engagement, and support data to identify at-risk accounts before churn and flag expansion opportunities."
+  },
+  {
+    "name": "sales-onboarding-curriculum-design",
+    "category": "sales",
+    "description": "Structures a time-bound onboarding plan for new sales hires covering product knowledge, process training, and ramp milestones with measurable checkpoints."
+  },
+  {
+    "name": "style-guide-creation",
+    "category": "writing",
+    "description": "Builds a comprehensive writing style guide defining tone, grammar rules, formatting standards, and terminology preferences for consistent brand communication."
+  },
+  {
+    "name": "content-gap-analysis",
+    "category": "writing",
+    "description": "Audits existing written content against target topics and competitor coverage to identify missing pieces that should be created or expanded."
+  },
+  {
+    "name": "plagiarism-check-workflow",
+    "category": "writing",
+    "description": "Runs systematic originality checks on drafted content, flags duplicated passages, and suggests rewritten alternatives to ensure unique publication-ready copy."
+  },
+  {
+    "name": "writing-brief-creation",
+    "category": "writing",
+    "description": "Generates detailed creative briefs for writers that specify audience, objectives, key messages, tone, word count, and structural requirements for any content assignment."
+  },
+  {
+    "name": "testimonial-writing",
+    "category": "writing",
+    "description": "Transforms raw customer feedback, interview notes, or survey responses into polished, persuasive testimonials optimized for specific sales or marketing contexts."
+  },
+  {
+    "name": "content-calendar-writing",
+    "category": "writing",
+    "description": "Plans and drafts a structured editorial calendar with topic ideas, formats, publishing dates, and channel assignments aligned to marketing goals."
+  },
+  {
+    "name": "faq-writing",
+    "category": "writing",
+    "description": "Researches common customer questions and drafts clear, concise FAQ documents optimized for both user comprehension and search engine visibility."
+  },
+  {
+    "name": "press-release-writing",
+    "category": "writing",
+    "description": "Drafts professional press releases following AP style with compelling headlines, news angles, quotes, and boilerplate copy ready for media distribution."
+  },
+  {
+    "name": "grant-writing",
+    "category": "writing",
+    "description": "Structures and drafts funding applications by translating project objectives, budgets, and impact metrics into persuasive narratives that meet specific grant requirements."
+  },
+  {
+    "name": "tone-consistency-audit",
+    "category": "writing",
+    "description": "Analyzes a body of existing written content to identify tone inconsistencies, off-brand language, and stylistic drift, then produces a correction report with revised examples."
+  },
+  {
+    "name": "marketing-budget-allocation",
+    "category": "marketing",
+    "description": "Distributes a total marketing budget across channels based on historical ROI, campaign goals, and audience reach data."
+  },
+  {
+    "name": "competitor-campaign-tracking",
+    "category": "marketing",
+    "description": "Monitors and logs competitor ad creatives, messaging changes, and promotional cadences to identify strategic patterns."
+  },
+  {
+    "name": "social-proof-collection",
+    "category": "marketing",
+    "description": "Systematically gathers, categorizes, and formats customer reviews, testimonials, and case study data for use in marketing assets."
+  },
+  {
+    "name": "utm-parameter-management",
+    "category": "marketing",
+    "description": "Generates, standardizes, and documents UTM tracking parameters across all campaigns to ensure consistent attribution reporting."
+  },
+  {
+    "name": "content-repurposing-planning",
+    "category": "marketing",
+    "description": "Maps existing long-form content assets to derivative formats such as social snippets, email sequences, and short videos to maximize distribution reach."
+  },
+  {
+    "name": "brand-mention-monitoring",
+    "category": "marketing",
+    "description": "Tracks and compiles brand mentions across social media, forums, and news sources to surface sentiment trends and engagement opportunities."
+  },
+  {
+    "name": "event-marketing-planning",
+    "category": "marketing",
+    "description": "Builds end-to-end promotional timelines, asset checklists, and follow-up sequences for in-person or virtual marketing events."
+  },
+  {
+    "name": "co-marketing-proposal-creation",
+    "category": "marketing",
+    "description": "Drafts structured co-marketing partnership proposals including audience overlap analysis, deliverables, and mutual promotional commitments."
+  },
+  {
+    "name": "marketing-channel-attribution",
+    "category": "marketing",
+    "description": "Analyzes multi-touch conversion data to assign revenue credit across marketing channels using first-touch, last-touch, or linear attribution models."
+  },
+  {
+    "name": "product-messaging-matrix",
+    "category": "marketing",
+    "description": "Creates a structured matrix mapping product features to customer pain points and corresponding benefit-driven messages for each target segment."
+  },
+  {
+    "name": "cap-table-management",
+    "category": "finance",
+    "description": "Tracks equity ownership, share classes, and dilution impacts across funding rounds to maintain an accurate capitalization table."
+  },
+  {
+    "name": "deferred-revenue-scheduling",
+    "category": "finance",
+    "description": "Automates the recognition schedule for prepaid contracts and subscriptions to ensure revenue is recorded in the correct accounting periods."
+  },
+  {
+    "name": "intercompany-reconciliation",
+    "category": "finance",
+    "description": "Identifies and eliminates intercompany transactions between related entities to produce clean consolidated financial statements."
+  },
+  {
+    "name": "tax-provision-calculation",
+    "category": "finance",
+    "description": "Estimates current and deferred tax liabilities based on temporary differences, NOL carryforwards, and applicable tax rates."
+  },
+  {
+    "name": "financial-covenant-monitoring",
+    "category": "finance",
+    "description": "Tracks debt agreement covenant ratios such as DSCR and leverage thresholds to alert when the business approaches breach conditions."
+  },
+  {
+    "name": "vendor-contract-cost-modeling",
+    "category": "finance",
+    "description": "Analyzes vendor contract terms and usage patterns to model total cost of ownership and identify renegotiation opportunities."
+  },
+  {
+    "name": "accounts-payable-aging-analysis",
+    "category": "finance",
+    "description": "Categorizes outstanding vendor invoices by due date buckets to prioritize payments and manage cash outflow timing."
+  },
+  {
+    "name": "fixed-asset-depreciation-scheduling",
+    "category": "finance",
+    "description": "Generates depreciation schedules for capital assets using straight-line, declining balance, or MACRS methods to support accurate financial reporting."
+  },
+  {
+    "name": "fundraising-data-room-preparation",
+    "category": "finance",
+    "description": "Organizes and audits financial documents, cap tables, and projections required for investor due diligence in a structured data room format."
+  },
+  {
+    "name": "cost-center-allocation-modeling",
+    "category": "finance",
+    "description": "Distributes shared overhead costs across business units or cost centers using defined allocation drivers to enable accurate departmental profitability analysis."
+  },
+  {
+    "name": "graphql-schema-design",
+    "category": "developer",
+    "description": "Design and generate GraphQL schemas with types, queries, mutations, and resolvers based on data model requirements."
+  },
+  {
+    "name": "webhook-integration-setup",
+    "category": "developer",
+    "description": "Build and document webhook endpoints with payload validation, signature verification, and retry logic handling."
+  },
+  {
+    "name": "database-indexing-strategy",
+    "category": "developer",
+    "description": "Analyze query patterns and recommend optimal database indexes to eliminate slow queries and reduce table scan overhead."
+  },
+  {
+    "name": "rate-limiting-implementation",
+    "category": "developer",
+    "description": "Design and implement rate limiting logic for APIs including token bucket, sliding window, and per-user quota enforcement patterns."
+  },
+  {
+    "name": "feature-flag-system-design",
+    "category": "developer",
+    "description": "Architect a feature flag system for controlled rollouts, A/B testing, and kill-switch functionality across application environments."
+  },
+  {
+    "name": "caching-strategy-design",
+    "category": "developer",
+    "description": "Define caching layers, TTL policies, cache invalidation strategies, and tooling selection for reducing latency and backend load."
+  },
+  {
+    "name": "data-serialization-optimization",
+    "category": "developer",
+    "description": "Evaluate and refactor data serialization formats and encoding strategies to reduce payload size and improve API response performance."
+  },
+  {
+    "name": "background-job-queue-design",
+    "category": "developer",
+    "description": "Design background job processing systems with queue configuration, worker concurrency, retry policies, and dead-letter handling."
+  },
+  {
+    "name": "multi-tenant-architecture-design",
+    "category": "developer",
+    "description": "Architect multi-tenancy models including data isolation strategies, tenant-scoped authentication, and resource partitioning across shared infrastructure."
+  },
+  {
+    "name": "event-driven-architecture-design",
+    "category": "developer",
+    "description": "Design event-driven system architectures with event schemas, producer-consumer patterns, message broker configuration, and idempotency guarantees."
+  },
+  {
+    "name": "headcount-planning-model",
+    "category": "operations",
+    "description": "Builds a structured headcount plan that maps hiring timelines, role requirements, and labor costs to operational growth targets."
+  },
+  {
+    "name": "escalation-matrix-design",
+    "category": "operations",
+    "description": "Creates a tiered escalation framework defining who owns each issue type, response thresholds, and resolution paths across the organization."
+  },
+  {
+    "name": "vendor-onboarding-checklist",
+    "category": "operations",
+    "description": "Generates a standardized vendor onboarding workflow covering due diligence, contract setup, system access, and compliance verification steps."
+  },
+  {
+    "name": "cross-functional-dependency-mapping",
+    "category": "operations",
+    "description": "Identifies and documents inter-team dependencies for a project or process to surface bottlenecks and coordination risks before they cause delays."
+  },
+  {
+    "name": "ops-runbook-creation",
+    "category": "operations",
+    "description": "Drafts step-by-step operational runbooks for recurring tasks or critical processes so any team member can execute them consistently without tribal knowledge."
+  },
+  {
+    "name": "tool-consolidation-audit",
+    "category": "operations",
+    "description": "Audits the current software tool stack to identify redundant, underused, or overlapping tools and recommends a consolidated setup to reduce cost and complexity."
+  },
+  {
+    "name": "offboarding-workflow-design",
+    "category": "operations",
+    "description": "Designs a structured employee or contractor offboarding checklist covering access revocation, asset recovery, knowledge transfer, and final payments."
+  },
+  {
+    "name": "ops-metrics-benchmarking",
+    "category": "operations",
+    "description": "Compares key operational metrics against industry benchmarks to identify performance gaps and prioritize improvement initiatives."
+  },
+  {
+    "name": "meeting-cadence-design",
+    "category": "operations",
+    "description": "Designs an optimal recurring meeting structure for a team or organization by mapping meeting types, frequencies, attendees, and agendas to operational objectives."
+  },
+  {
+    "name": "data-retention-policy-design",
+    "category": "operations",
+    "description": "Creates a formal data retention policy specifying how long different data types are stored, where they live, and how they are purged to meet compliance and storage requirements."
+  },
+  {
+    "name": "research-instrument-validation",
+    "category": "research",
+    "description": "Evaluates survey instruments, interview guides, or measurement tools for construct validity, reliability, and potential bias before deployment."
+  },
+  {
+    "name": "annotated-bibliography-creation",
+    "category": "research",
+    "description": "Builds structured annotated bibliographies from a list of sources by summarizing key arguments, methodology, and relevance to a research question."
+  },
+  {
+    "name": "data-cleaning-protocol-design",
+    "category": "research",
+    "description": "Designs step-by-step protocols for identifying and resolving missing values, duplicates, outliers, and inconsistencies in raw research datasets."
+  },
+  {
+    "name": "research-ethics-review-checklist",
+    "category": "research",
+    "description": "Generates an IRB-style ethics review checklist covering informed consent, data privacy, participant risk, and compliance requirements for a given study design."
+  },
+  {
+    "name": "competitive-landscape-mapping",
+    "category": "research",
+    "description": "Structures a visual and narrative map of competitors across defined dimensions such as pricing, features, positioning, and target audience from collected data."
+  },
+  {
+    "name": "focus-group-analysis",
+    "category": "research",
+    "description": "Analyzes focus group transcripts to extract recurring themes, sentiment patterns, and notable divergences across participant segments."
+  },
+  {
+    "name": "research-taxonomy-design",
+    "category": "research",
+    "description": "Builds a hierarchical classification system for organizing research findings, topics, or sources into structured, searchable categories."
+  },
+  {
+    "name": "cross-study-synthesis",
+    "category": "research",
+    "description": "Combines findings from multiple independent studies into a unified summary that highlights agreements, contradictions, and cumulative evidence weight."
+  },
+  {
+    "name": "sample-size-calculation",
+    "category": "research",
+    "description": "Calculates statistically appropriate sample sizes for surveys or experiments based on confidence level, margin of error, and expected effect size inputs."
+  },
+  {
+    "name": "research-impact-assessment",
+    "category": "research",
+    "description": "Evaluates the potential practical, commercial, or policy impact of a research project by mapping findings to real-world applications and stakeholder relevance."
+  },
+  {
+    "name": "sales-email-sequence-builder",
+    "category": "sales",
+    "description": "Designs multi-step outbound email sequences with timing, messaging variation, and follow-up triggers tailored to specific prospect segments."
+  },
+  {
+    "name": "objection-response-library",
+    "category": "sales",
+    "description": "Builds a structured repository of common sales objections paired with tested, role-specific response frameworks for reps to reference during live calls."
+  },
+  {
+    "name": "prospect-research-brief",
+    "category": "sales",
+    "description": "Compiles a concise pre-call intelligence brief on a target account including firmographics, recent news, likely pain points, and key stakeholder roles."
+  },
+  {
+    "name": "sales-roi-calculator-design",
+    "category": "sales",
+    "description": "Creates an interactive ROI calculator tool that quantifies prospect cost savings or revenue gains from adopting your product, usable in proposals and demos."
+  },
+  {
+    "name": "deal-risk-scoring",
+    "category": "sales",
+    "description": "Evaluates open opportunities against defined risk factors such as missing stakeholders, stalled timelines, or budget uncertainty to flag at-risk deals for intervention."
+  },
+  {
+    "name": "sales-case-study-packaging",
+    "category": "sales",
+    "description": "Structures raw customer success data and interview notes into a polished, objection-busting case study formatted for use in sales conversations and proposals."
+  },
+  {
+    "name": "discount-approval-workflow-design",
+    "category": "sales",
+    "description": "Maps and documents the internal discount request and approval process including thresholds, required justifications, and escalation paths to prevent margin leakage."
+  },
+  {
+    "name": "renewal-risk-identification",
+    "category": "sales",
+    "description": "Analyzes account usage data, support history, and engagement signals to identify customers at risk of non-renewal before the contract window opens."
+  },
+  {
+    "name": "sales-meeting-debrief-template",
+    "category": "sales",
+    "description": "Generates a structured post-meeting debrief format capturing buyer signals, next steps, open questions, and CRM update requirements from a sales call."
+  },
+  {
+    "name": "competitive-displacement-strategy",
+    "category": "sales",
+    "description": "Develops a targeted plan for displacing a named incumbent vendor in a prospect account by mapping their weaknesses to your differentiated strengths."
+  },
+  {
+    "name": "readability-scoring",
+    "category": "writing",
+    "description": "Analyzes written content against readability formulas like Flesch-Kincaid and Gunning Fog to score complexity and suggest sentence-level simplifications for a target audience."
+  },
+  {
+    "name": "content-brief-to-draft",
+    "category": "writing",
+    "description": "Transforms a structured content brief with keywords, audience notes, and objectives into a complete first-draft article or post ready for editorial review."
+  },
+  {
+    "name": "writing-portfolio-curation",
+    "category": "writing",
+    "description": "Reviews a collection of writing samples, categorizes them by format and industry, and produces a curated portfolio structure with recommended positioning descriptions for each piece."
+  },
+  {
+    "name": "passive-voice-reduction",
+    "category": "writing",
+    "description": "Scans a document for passive voice constructions, flags each instance, and rewrites them in active voice while preserving the original meaning and tone."
+  },
+  {
+    "name": "abstract-writing",
+    "category": "writing",
+    "description": "Distills a long-form research paper, report, or article into a concise structured abstract covering purpose, methodology, findings, and conclusions within a specified word limit."
+  },
+  {
+    "name": "writing-consistency-audit",
+    "category": "writing",
+    "description": "Audits a document or content series for inconsistencies in terminology, capitalization, formatting conventions, and named entity usage, then produces a flagged correction report."
+  },
+  {
+    "name": "multilingual-content-adaptation",
+    "category": "writing",
+    "description": "Takes English-language content and adapts it for a specific non-English market by adjusting idioms, cultural references, tone, and terminology to suit local audience expectations."
+  },
+  {
+    "name": "parallel-structure-editing",
+    "category": "writing",
+    "description": "Identifies lists, headings, bullet points, and series within a document that lack parallel grammatical structure and rewrites each element to achieve consistent syntactic alignment."
+  },
+  {
+    "name": "thought-leadership-article-development",
+    "category": "writing",
+    "description": "Develops a bylined thought leadership article from a subject-matter expert's rough notes or talking points, shaping a clear argument, supporting evidence, and a distinctive professional voice."
+  },
+  {
+    "name": "citation-and-reference-formatting",
+    "category": "writing",
+    "description": "Takes a list of sources in any format and converts all citations and references into a specified style guide such as APA, MLA, Chicago, or IEEE with consistent punctuation and ordering."
+  }
 ]
