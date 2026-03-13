@@ -1,9 +1,10 @@
 import { LogoWordmark } from '@/components/logo';
 import type { Metadata } from 'next';
+import { SKILL_COUNT_DISPLAY } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Pricing — claude.md directory',
-  description: '500+ SKILL.md files for Claude Code professionals. 8 categories. Starter Pack $19 · Full Library $49 · Pro $9/mo · API $29/mo.',
+  description: `${SKILL_COUNT_DISPLAY} SKILL.md files for Claude Code professionals. 8 categories. Starter Pack $19 · Full Library $49 · Pro $9/mo · API $29/mo.`,
 };
 
 const TIERS = [
@@ -30,7 +31,7 @@ const TIERS = [
     tagline: 'All 8 categories. Every skill we ever add.',
     features: [
       'All 8 categories',
-      '500+ SKILL.md files at launch',
+      `${SKILL_COUNT_DISPLAY} SKILL.md files at launch`,
       'Every new skill added post-launch',
       'Instant download',
       'No subscription',
@@ -149,7 +150,7 @@ export default function PricingPage() {
           fontSize: '20px', color: '#9b9284', lineHeight: 1.7,
           maxWidth: '520px', margin: '0 auto',
         }}>
-          500+ SKILL.md files for Claude Code professionals. Buy the category you need, or get everything for $49.
+          {SKILL_COUNT_DISPLAY} SKILL.md files for Claude Code professionals. Buy the category you need, or get everything for $49.
         </p>
       </section>
 

@@ -82,6 +82,13 @@ async function main() {
   }
 
   console.log(`\nDone — ${synced} synced, ${errors} errors`);
+
+  // Update src/lib/constants.ts with the new skill count
+  const display = `${Math.floor(synced / 100) * 100}+`;
+  const constantsPath = path.join(process.cwd(), 'src/lib/constants.ts');
+  const constantsContent = `// Auto-updated by scripts/sync-skills.ts after each sync run.\n// Do not edit manually — run \`npm run sync-skills\` to refresh.\n\nexport const SKILL_COUNT = ${synced};\nexport const SKILL_COUNT_DISPLAY = '${display}';\n`;
+  fs.writeFileSync(constantsPath, constantsContent, 'utf-8');
+  console.log(`Updated constants.ts — SKILL_COUNT=${synced}, SKILL_COUNT_DISPLAY='${display}'`);
 }
 
 main().catch((err) => {

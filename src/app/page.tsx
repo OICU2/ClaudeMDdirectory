@@ -1,4 +1,5 @@
 import { LogoMark, LogoWordmark } from '@/components/logo';
+import { SKILL_COUNT_DISPLAY } from '@/lib/constants';
 import { EmailForm } from '@/components/email-form';
 import { FEATURED_SKILL_MD } from '@/lib/featured-skill';
 import { SkillPreview } from '@/components/skill-preview';
@@ -108,7 +109,7 @@ export default function Home() {
           fontSize: '20px', color: '#9b9284', lineHeight: 1.7,
           maxWidth: '560px', margin: '0 auto 40px',
         }}>
-          500+ SKILL.md files for Claude Code professionals. One featured skill
+          {SKILL_COUNT_DISPLAY} SKILL.md files for Claude Code professionals. One featured skill
           free every week. Full library launches April 1.
         </p>
 
