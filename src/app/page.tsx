@@ -108,7 +108,7 @@ export default function Home() {
           fontSize: '20px', color: '#9b9284', lineHeight: 1.7,
           maxWidth: '560px', margin: '0 auto 40px',
         }}>
-          350+ SKILL.md files for Claude Code professionals. One featured skill
+          500+ SKILL.md files for Claude Code professionals. One featured skill
           free every week. Full library launches April 1.
         </p>
 

@@ -17,7 +17,7 @@ const crimson = Crimson_Pro({
 
 export const metadata: Metadata = {
   title: 'claude.md directory — The SKILL.md Library for Claude Code',
-  description: '350+ SKILL.md files for Claude Code professionals. One featured skill per week. Full library launching April 1, 2026.',
+  description: '500+ SKILL.md files for Claude Code professionals. One featured skill per week. Full library launching April 1, 2026.',
   openGraph: {
     title: 'claude.md directory',
     description: 'The community SKILL.md library Claude Code deserves.',

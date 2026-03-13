@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Pricing — claude.md directory',
-  description: 'SKILL.md library for Claude Code professionals. Starter Pack $19 · Full Library $49 · Pro $9/mo · API $29/mo.',
+  description: '500+ SKILL.md files for Claude Code professionals. 8 categories. Starter Pack $19 · Full Library $49 · Pro $9/mo · API $29/mo.',
 };
 
 const TIERS = [
@@ -27,10 +27,10 @@ const TIERS = [
     name: 'Full Library',
     price: '$49',
     period: 'one-time',
-    tagline: 'All 7 categories. Every skill we ever add.',
+    tagline: 'All 8 categories. Every skill we ever add.',
     features: [
-      'All 7 categories',
-      '350+ SKILL.md files at launch',
+      'All 8 categories',
+      '500+ SKILL.md files at launch',
       'Every new skill added post-launch',
       'Instant download',
       'No subscription',
@@ -149,7 +149,7 @@ export default function PricingPage() {
           fontSize: '20px', color: '#9b9284', lineHeight: 1.7,
           maxWidth: '520px', margin: '0 auto',
         }}>
-          350+ SKILL.md files for Claude Code professionals. Buy the category you need, or get everything for $49.
+          500+ SKILL.md files for Claude Code professionals. Buy the category you need, or get everything for $49.
         </p>
       </section>
 
@@ -275,12 +275,52 @@ export default function PricingPage() {
             Pick any one at checkout:
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center' }}>
-            {['Developer', 'Marketing', 'Sales', 'Writing', 'Finance', 'Operations', 'Research'].map((cat) => (
+            {['Developer', 'Marketing', 'Sales', 'Solopreneur', 'Writing', 'Finance', 'Operations', 'Research'].map((cat) => (
               <span key={cat} style={{
                 fontFamily: "'JetBrains Mono', monospace",
                 fontSize: '10px', letterSpacing: '0.1em',
                 color: '#c8c0b0', textTransform: 'uppercase',
                 background: '#1a1813', border: '1px solid #2a2520',
+                padding: '6px 12px', borderRadius: '2px',
+              }}>
+                {cat}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Coming Soon Categories */}
+      <section style={{
+        maxWidth: '600px', margin: '0 auto',
+        padding: '0 24px 80px',
+        textAlign: 'center',
+      }}>
+        <div style={{
+          background: '#0f0e0b', border: '1px dashed #2a2520',
+          borderRadius: '4px', padding: '24px',
+        }}>
+          <div style={{
+            fontFamily: "'JetBrains Mono', monospace",
+            fontSize: '10px', letterSpacing: '0.15em',
+            color: '#5a5248', textTransform: 'uppercase',
+            marginBottom: '12px',
+          }}>
+            // Coming Soon
+          </div>
+          <p style={{
+            fontFamily: 'var(--font-crimson), Georgia, serif',
+            fontSize: '15px', color: '#5a5248', marginBottom: '16px',
+          }}>
+            More categories dropping post-launch:
+          </p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center' }}>
+            {['Legal', 'Product', 'Customer Success', 'Personal Productivity'].map((cat) => (
+              <span key={cat} style={{
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: '10px', letterSpacing: '0.1em',
+                color: '#5a5248', textTransform: 'uppercase',
+                background: '#0b0a07', border: '1px dashed #2a2520',
                 padding: '6px 12px', borderRadius: '2px',
               }}>
                 {cat}
