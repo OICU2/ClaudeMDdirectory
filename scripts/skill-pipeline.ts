@@ -30,7 +30,7 @@ if (fs.existsSync(envPath)) {
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-const CATEGORIES = ['marketing', 'finance', 'developer', 'operations', 'research', 'sales', 'writing'];
+const CATEGORIES = ['marketing', 'finance', 'developer', 'operations', 'research', 'sales', 'writing', 'solopreneur'];
 const SKILLS_PER_RUN = 10; // new skills to generate per category per run
 
 interface SkillEntry {
